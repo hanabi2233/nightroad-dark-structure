@@ -1,0 +1,9 @@
+Panel,Method,Instances,PSNR (dB) ↑,SSIM ↑,LPIPS ↓
+LOLv2-real,SCI,1,12.858,0.3577,0.6588
+LOLv2-real,EnlightenGAN,1,15.343,0.4974,0.5986
+LOLv2-real,Three-task PCGrad (ours),3,21.246,0.7734,0.2414
+Synthetic ACDC,RetinexNet,1,10.469,0.4314,0.5031
+Synthetic ACDC,SCI,1,15.145,0.6502,0.2645
+Synthetic ACDC,EnlightenGAN,1,12.341,0.6837,0.2879
+Synthetic ACDC,Zero-DCE,1,14.071,0.6704,0.3001
+Synthetic ACDC,Three-task PCGrad (ours),3,16.139,0.8075,0.1564

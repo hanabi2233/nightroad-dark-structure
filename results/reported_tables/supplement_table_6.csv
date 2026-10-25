@@ -1,0 +1,21 @@
+Segmenter,Condition,Seed,aAcc (%),ΔmIoU vs Input (pp)
+SegFormer,Input,None,57.1211,0.0000
+SegFormer,RGB reconstruction,20261004,53.1996,−0.8808
+SegFormer,SUM4,20261004,50.8866,−0.8986
+SegFormer,Four-task,20261004,52.5885,−1.6196
+SegFormer,Three-task,20261004,51.2112,−1.7145
+SegFormer,Three-task,20261005,55.1217,+0.0681
+SegFormer,Three-task,20261006,52.7149,−2.2036
+SegFormer,Without M,20261004,50.6173,−2.2940
+SegFormer,Without M,20261005,53.5600,−2.0064
+SegFormer,Without M,20261006,51.7982,−2.8813
+DeepLab,Input,None,27.1159,0.0000
+DeepLab,RGB reconstruction,20261004,13.6476,−6.4424
+DeepLab,SUM4,20261004,13.8947,−6.5007
+DeepLab,Four-task,20261004,14.5123,−6.2533
+DeepLab,Three-task,20261004,13.8306,−6.5125
+DeepLab,Three-task,20261005,15.1309,−5.9686
+DeepLab,Three-task,20261006,14.5633,−6.6205
+DeepLab,Without M,20261004,15.9512,−5.9588
+DeepLab,Without M,20261005,15.0062,−6.0780
+DeepLab,Without M,20261006,16.9458,−6.0053

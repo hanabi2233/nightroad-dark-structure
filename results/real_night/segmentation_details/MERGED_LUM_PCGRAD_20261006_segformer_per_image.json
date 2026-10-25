@@ -1,0 +1,2864 @@
+[
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000033_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.11237636215121828,
+    "aAcc": 0.36754651454675813,
+    "valid_pixels": 1884303
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000033_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.13876802184677742,
+    "aAcc": 0.6273133659009207,
+    "valid_pixels": 833958
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000033_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.0285540105497246,
+    "aAcc": 0.1612955743112977,
+    "valid_pixels": 1050345
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000039_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.19958371180979523,
+    "aAcc": 0.670865387606718,
+    "valid_pixels": 1800072
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000039_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.26080181375393513,
+    "aAcc": 0.7303603839578835,
+    "valid_pixels": 1080431
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000039_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.11641724809657396,
+    "aAcc": 0.5815427414502509,
+    "valid_pixels": 719641
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000043_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.2319128239481734,
+    "aAcc": 0.5129256569476258,
+    "valid_pixels": 1833137
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000043_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.24019385230441506,
+    "aAcc": 0.6633054792433495,
+    "valid_pixels": 1030489
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000043_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.1349649251903584,
+    "aAcc": 0.31985876747964237,
+    "valid_pixels": 802648
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000047_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.17743646320630718,
+    "aAcc": 0.5836905295686049,
+    "valid_pixels": 1960407
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000047_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.2246194355277991,
+    "aAcc": 0.6549307337266134,
+    "valid_pixels": 1205926
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000047_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.06421841506701315,
+    "aAcc": 0.4698236271026043,
+    "valid_pixels": 754481
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000049_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.12496583218643578,
+    "aAcc": 0.5217856350542601,
+    "valid_pixels": 1942771
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000049_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.17101174313876882,
+    "aAcc": 0.7282688663025486,
+    "valid_pixels": 1000408
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000049_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.05883450822428436,
+    "aAcc": 0.3025840360880043,
+    "valid_pixels": 942363
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000053_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.1511436470772727,
+    "aAcc": 0.5076440329957078,
+    "valid_pixels": 1949102
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000053_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.1760601009594968,
+    "aAcc": 0.6814054044572301,
+    "valid_pixels": 1140170
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000053_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.05071644593259418,
+    "aAcc": 0.2627316016673837,
+    "valid_pixels": 808932
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000055_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.2908203930053449,
+    "aAcc": 0.7063292012871645,
+    "valid_pixels": 1970533
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000055_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.3176139875341309,
+    "aAcc": 0.7967684538724619,
+    "valid_pixels": 1277469
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000055_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.10058830388803328,
+    "aAcc": 0.5396298177368901,
+    "valid_pixels": 693064
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000057_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.30560683196542365,
+    "aAcc": 0.761116133783809,
+    "valid_pixels": 1981017
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000057_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.3238445950188675,
+    "aAcc": 0.8482659786592555,
+    "valid_pixels": 1310451
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000057_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.11186934971756447,
+    "aAcc": 0.5908038880587444,
+    "valid_pixels": 670566
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000059_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.14114359532678894,
+    "aAcc": 0.5376985482169554,
+    "valid_pixels": 1976535
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000059_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.16659879571468084,
+    "aAcc": 0.6097880711731749,
+    "valid_pixels": 1136608
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000059_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.07688353858929448,
+    "aAcc": 0.4401453935877761,
+    "valid_pixels": 839927
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000061_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.13986735100430264,
+    "aAcc": 0.626388655971081,
+    "valid_pixels": 1878345
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000061_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.16274128377490113,
+    "aAcc": 0.6047267860041812,
+    "valid_pixels": 1207332
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000061_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.0781023128887451,
+    "aAcc": 0.66536415836951,
+    "valid_pixels": 671013
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000063_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.10972284437582566,
+    "aAcc": 0.43348881544339807,
+    "valid_pixels": 1861093
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000063_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.11723319732014821,
+    "aAcc": 0.42246447997171727,
+    "valid_pixels": 1035261
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000063_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.053138807054168,
+    "aAcc": 0.44730889575603755,
+    "valid_pixels": 825832
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000065_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.19297202165702032,
+    "aAcc": 0.6111772748841154,
+    "valid_pixels": 1814521
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000065_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.20014803227579625,
+    "aAcc": 0.5853868450136585,
+    "valid_pixels": 1055022
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000065_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.16837836108027163,
+    "aAcc": 0.6470028268634982,
+    "valid_pixels": 759499
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000067_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.19024791173416494,
+    "aAcc": 0.6227575286134338,
+    "valid_pixels": 1945677
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000067_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.250727740058018,
+    "aAcc": 0.8296538107828951,
+    "valid_pixels": 1236347
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000067_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.04964735182353169,
+    "aAcc": 0.26214173938787305,
+    "valid_pixels": 709330
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000069_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.21315762288900103,
+    "aAcc": 0.6043195107284056,
+    "valid_pixels": 1953925
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000069_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.2724113722689714,
+    "aAcc": 0.7782925592688835,
+    "valid_pixels": 1384622
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000069_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.02795212384744459,
+    "aAcc": 0.18119349450117073,
+    "valid_pixels": 569303
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000071_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.15428435167140242,
+    "aAcc": 0.5119362337074514,
+    "valid_pixels": 1955265
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000071_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.1774192534779343,
+    "aAcc": 0.6353192193534986,
+    "valid_pixels": 1136084
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000071_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.0522285866469359,
+    "aAcc": 0.3408221137941432,
+    "valid_pixels": 819181
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000079_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.23238785730592806,
+    "aAcc": 0.5488603824258597,
+    "valid_pixels": 2019581
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000079_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.22932788343060911,
+    "aAcc": 0.6458977721265114,
+    "valid_pixels": 1358201
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000079_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.12335349887720978,
+    "aAcc": 0.34958571471771144,
+    "valid_pixels": 661380
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000081_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.10136519189109917,
+    "aAcc": 0.5168161257514178,
+    "valid_pixels": 2021512
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000081_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.08829161405665334,
+    "aAcc": 0.44126804294226685,
+    "valid_pixels": 1166869
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000081_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.08863595883490492,
+    "aAcc": 0.6199641253716464,
+    "valid_pixels": 854643
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000083_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.09149051256578856,
+    "aAcc": 0.4670486388108286,
+    "valid_pixels": 1995608
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000083_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.09449456868393917,
+    "aAcc": 0.6378764006054438,
+    "valid_pixels": 967885
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000083_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.06955829876852573,
+    "aAcc": 0.3061671286912913,
+    "valid_pixels": 1027723
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000085_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.11650791430658142,
+    "aAcc": 0.5489724526733503,
+    "valid_pixels": 2037911
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000085_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.0878522306319108,
+    "aAcc": 0.4971092016206731,
+    "valid_pixels": 1248617
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000085_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.1122268839122789,
+    "aAcc": 0.6310170861554757,
+    "valid_pixels": 789294
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000087_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.15662287608189202,
+    "aAcc": 0.6302924918916831,
+    "valid_pixels": 1890343
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000087_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.19721727055454089,
+    "aAcc": 0.7295527086866009,
+    "valid_pixels": 1077441
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000087_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.06477062782754832,
+    "aAcc": 0.498730474276112,
+    "valid_pixels": 812902
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000089_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.2081341638890366,
+    "aAcc": 0.5481407786329748,
+    "valid_pixels": 1822322
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000089_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.25623125385924467,
+    "aAcc": 0.7071917764082102,
+    "valid_pixels": 1163871
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000089_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.06319869156721555,
+    "aAcc": 0.26700392284315766,
+    "valid_pixels": 658451
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000091_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.23734667253572206,
+    "aAcc": 0.6416860104605118,
+    "valid_pixels": 1917497
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000091_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.3204497859778638,
+    "aAcc": 0.8240903108464339,
+    "valid_pixels": 1303055
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000091_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.08662829756288747,
+    "aAcc": 0.2548588800895772,
+    "valid_pixels": 614442
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000093_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.18325152971459108,
+    "aAcc": 0.5779650656620722,
+    "valid_pixels": 1966432
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000093_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.2493001536200486,
+    "aAcc": 0.745731918194904,
+    "valid_pixels": 855888
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000093_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.11534090244902959,
+    "aAcc": 0.44866840035153943,
+    "valid_pixels": 1110544
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000095_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.21445840975783909,
+    "aAcc": 0.5932922489710162,
+    "valid_pixels": 1822429
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000095_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.273559652228011,
+    "aAcc": 0.7167707810454073,
+    "valid_pixels": 1119602
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000095_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.08774059578897578,
+    "aAcc": 0.3965911952728054,
+    "valid_pixels": 702827
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000099_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.14268255179408756,
+    "aAcc": 0.4612673821903146,
+    "valid_pixels": 1891016
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000099_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.22049508410043384,
+    "aAcc": 0.6425156180984019,
+    "valid_pixels": 930491
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000099_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.05003179913247404,
+    "aAcc": 0.28568647354311444,
+    "valid_pixels": 960525
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000101_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.17237779661767888,
+    "aAcc": 0.669423504193979,
+    "valid_pixels": 1864697
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000101_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.281483716341341,
+    "aAcc": 0.7963850593062884,
+    "valid_pixels": 1055453
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000101_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.09047652795125517,
+    "aAcc": 0.5038344430110078,
+    "valid_pixels": 809244
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000105_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.15151253167291323,
+    "aAcc": 0.5650723827814516,
+    "valid_pixels": 1982792
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000105_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.1774170748026485,
+    "aAcc": 0.6826979701826473,
+    "valid_pixels": 1353373
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000105_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.06366441327460882,
+    "aAcc": 0.3121545425225486,
+    "valid_pixels": 629419
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000111_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.2060522329535386,
+    "aAcc": 0.586869262503252,
+    "valid_pixels": 1937256
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000111_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.20877613517915436,
+    "aAcc": 0.7816527159054306,
+    "valid_pixels": 1151789
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000111_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.08970621309605452,
+    "aAcc": 0.30124371870492334,
+    "valid_pixels": 785467
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000113_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.2196930336057608,
+    "aAcc": 0.5759778391523435,
+    "valid_pixels": 1939276
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000113_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.2386345573350845,
+    "aAcc": 0.7905516571070716,
+    "valid_pixels": 1104998
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000113_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.10373165514367709,
+    "aAcc": 0.2917756431309468,
+    "valid_pixels": 834278
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000115_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.23239600149942158,
+    "aAcc": 0.5861996170144678,
+    "valid_pixels": 1937410
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000115_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.2749275922595365,
+    "aAcc": 0.7783955604262213,
+    "valid_pixels": 1229127
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000115_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.10447381590476458,
+    "aAcc": 0.25267018974054156,
+    "valid_pixels": 708283
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000121_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.16819560937527256,
+    "aAcc": 0.673624649449767,
+    "valid_pixels": 1939451
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000121_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.18084993103832378,
+    "aAcc": 0.7455408149212185,
+    "valid_pixels": 1299733
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000121_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.0874486273724287,
+    "aAcc": 0.5275105593402093,
+    "valid_pixels": 639718
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000124_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.12279698282168022,
+    "aAcc": 0.6181218683092294,
+    "valid_pixels": 1920089
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000124_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.14266872745206313,
+    "aAcc": 0.7983670765774846,
+    "valid_pixels": 1388920
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000124_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.018854483577497673,
+    "aAcc": 0.14681014893564948,
+    "valid_pixels": 531169
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000128_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.13613487976660968,
+    "aAcc": 0.7320617095847085,
+    "valid_pixels": 2026071
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000128_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.16226557038254952,
+    "aAcc": 0.8893465237269431,
+    "valid_pixels": 1573064
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000128_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.06348488330331653,
+    "aAcc": 0.18589116724465626,
+    "valid_pixels": 453007
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000132_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.21729066632694413,
+    "aAcc": 0.8068076803341577,
+    "valid_pixels": 2039755
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000132_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.20423330998473965,
+    "aAcc": 0.88293715306286,
+    "valid_pixels": 1528555
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000132_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.14173516323458724,
+    "aAcc": 0.579170579029734,
+    "valid_pixels": 511200
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000141_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.15917242001204265,
+    "aAcc": 0.6268543587488977,
+    "valid_pixels": 1969751
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000141_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.19723412356174913,
+    "aAcc": 0.7642153658777655,
+    "valid_pixels": 1568215
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000141_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.05115015581602838,
+    "aAcc": 0.09038541998724896,
+    "valid_pixels": 401536
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000143_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.11487713639273905,
+    "aAcc": 0.5054516154390378,
+    "valid_pixels": 2035360
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000143_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.11297946688178456,
+    "aAcc": 0.5682015585206953,
+    "valid_pixels": 1627954
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000143_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.06806818204573527,
+    "aAcc": 0.25470906172221325,
+    "valid_pixels": 407406
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000651_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.18799202951600044,
+    "aAcc": 0.5817796829260532,
+    "valid_pixels": 2011392
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000651_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.21323097248780595,
+    "aAcc": 0.7610781691181648,
+    "valid_pixels": 1292339
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000651_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.05926871230271041,
+    "aAcc": 0.2595302432504975,
+    "valid_pixels": 719053
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000654_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.19331021257906356,
+    "aAcc": 0.532882161647595,
+    "valid_pixels": 1991703
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000654_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.22105960237855843,
+    "aAcc": 0.7346045460805701,
+    "valid_pixels": 1401339
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000654_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.05694410368925195,
+    "aAcc": 0.054056480408697004,
+    "valid_pixels": 590364
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000706_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.17827018604634345,
+    "aAcc": 0.515475636541935,
+    "valid_pixels": 1998690
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000706_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.21387397246656176,
+    "aAcc": 0.7124111845853566,
+    "valid_pixels": 1360265
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000706_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.05980600209415041,
+    "aAcc": 0.09587343854015742,
+    "valid_pixels": 638425
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000709_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.21724390706279487,
+    "aAcc": 0.5375029635725531,
+    "valid_pixels": 1969751
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000709_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.251430877998678,
+    "aAcc": 0.6747421674987003,
+    "valid_pixels": 1225311
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000709_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.08987273312661581,
+    "aAcc": 0.31161409918865185,
+    "valid_pixels": 744440
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000712_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.1063714845395695,
+    "aAcc": 0.48711973714239537,
+    "valid_pixels": 1831562
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000712_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.11717649876887946,
+    "aAcc": 0.5668405282953348,
+    "valid_pixels": 1278603
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000712_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.04972995400699706,
+    "aAcc": 0.302781942241649,
+    "valid_pixels": 552959
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000718_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.14674155769496636,
+    "aAcc": 0.672946372029116,
+    "valid_pixels": 1917022
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000718_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.1574897491899021,
+    "aAcc": 0.7621640255581041,
+    "valid_pixels": 1659278
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000718_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.013390863056501202,
+    "aAcc": 0.09859007387174872,
+    "valid_pixels": 257744
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000724_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.1946563937371921,
+    "aAcc": 0.526390080629146,
+    "valid_pixels": 1868183
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000724_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.22410421522833343,
+    "aAcc": 0.7236434027515398,
+    "valid_pixels": 1243958
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000724_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.056825077288823196,
+    "aAcc": 0.13330289559053227,
+    "valid_pixels": 624225
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000727_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.28772620217059436,
+    "aAcc": 0.6430450441521086,
+    "valid_pixels": 1977482
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000727_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.363287600080228,
+    "aAcc": 0.8004946586750278,
+    "valid_pixels": 1335062
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000727_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.09675234965957147,
+    "aAcc": 0.3158369913763581,
+    "valid_pixels": 642420
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000742_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.12437294129249861,
+    "aAcc": 0.3755948685334876,
+    "valid_pixels": 1985943
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000742_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.1569631232983473,
+    "aAcc": 0.6033542476103289,
+    "valid_pixels": 1096699
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000742_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.016723656827030583,
+    "aAcc": 0.09470066708350014,
+    "valid_pixels": 889244
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000745_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.10716885084882509,
+    "aAcc": 0.42754321325645406,
+    "valid_pixels": 1913996
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000745_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.12172406664969104,
+    "aAcc": 0.5061802627698121,
+    "valid_pixels": 1403662
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000745_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.027203691644722496,
+    "aAcc": 0.21125380633075594,
+    "valid_pixels": 510334
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000748_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.07031361438609433,
+    "aAcc": 0.31577583736021053,
+    "valid_pixels": 2034041
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000748_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.08876550593625276,
+    "aAcc": 0.357127253608736,
+    "valid_pixels": 1620512
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000748_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.03853802698562976,
+    "aAcc": 0.15373045179419098,
+    "valid_pixels": 413529
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000754_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.14479867819971462,
+    "aAcc": 0.6054733482861917,
+    "valid_pixels": 1992930
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000754_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.16284548801195986,
+    "aAcc": 0.7887781552753096,
+    "valid_pixels": 1475212
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000754_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.008255444408944669,
+    "aAcc": 0.08315530848840488,
+    "valid_pixels": 517718
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000761_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.147948954248905,
+    "aAcc": 0.6035334105332085,
+    "valid_pixels": 1945599
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000761_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.17738815115556636,
+    "aAcc": 0.7064904457397487,
+    "valid_pixels": 1537691
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000761_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.05532407149760543,
+    "aAcc": 0.21541622130480403,
+    "valid_pixels": 407908
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000770_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.11547355335634536,
+    "aAcc": 0.2217763318118612,
+    "valid_pixels": 2036624
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000770_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.12290564853744664,
+    "aAcc": 0.3137634134775813,
+    "valid_pixels": 1366536
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000770_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.023942653734661208,
+    "aAcc": 0.034183569919174796,
+    "valid_pixels": 670088
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000774_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.11387262123838945,
+    "aAcc": 0.4002580264990536,
+    "valid_pixels": 2016072
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000774_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.1689775380400598,
+    "aAcc": 0.6004458324889537,
+    "valid_pixels": 1056002
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000774_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.04647770216908045,
+    "aAcc": 0.1800670784421969,
+    "valid_pixels": 960070
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000809_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.162170853303031,
+    "aAcc": 0.48600465407271826,
+    "valid_pixels": 1977193
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000809_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.2006941103006692,
+    "aAcc": 0.5668332709077794,
+    "valid_pixels": 1551181
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000809_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.03566602399797779,
+    "aAcc": 0.19169413068176483,
+    "valid_pixels": 426012
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000814_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.13797439623319477,
+    "aAcc": 0.43726754607571144,
+    "valid_pixels": 1951462
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000814_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.1543860363022072,
+    "aAcc": 0.5850901898091917,
+    "valid_pixels": 1281076
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000814_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.0813234177516574,
+    "aAcc": 0.15478545196349566,
+    "valid_pixels": 670386
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000818_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.1413291655394071,
+    "aAcc": 0.48707060978857686,
+    "valid_pixels": 1858595
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000818_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.21693220980983585,
+    "aAcc": 0.6077429175353672,
+    "valid_pixels": 1108936
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000818_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.05339447087988758,
+    "aAcc": 0.3085656278387907,
+    "valid_pixels": 749659
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000822_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.07910175794647159,
+    "aAcc": 0.4602182848788438,
+    "valid_pixels": 1335136
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000822_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.10852819063890203,
+    "aAcc": 0.5905768349813983,
+    "valid_pixels": 953947
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000822_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.016922955891648255,
+    "aAcc": 0.13398865129896192,
+    "valid_pixels": 381189
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000825_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "all",
+    "mIoU": 0.1838771158851884,
+    "aAcc": 0.45785037769455195,
+    "valid_pixels": 1541722
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000825_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv0",
+    "mIoU": 0.24836677628996484,
+    "aAcc": 0.6445901149024201,
+    "valid_pixels": 1003025
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0351_frame_000825_rgb_anon",
+    "sequence": "GOPR0351",
+    "region": "inv1",
+    "mIoU": 0.017309880427352986,
+    "aAcc": 0.11015097540918178,
+    "valid_pixels": 538697
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000321_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.15244907338003186,
+    "aAcc": 0.5743588395694565,
+    "valid_pixels": 1635979
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000321_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.15713655911928834,
+    "aAcc": 0.5247589334258967,
+    "valid_pixels": 1215743
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000321_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.08819099117567882,
+    "aAcc": 0.7178513977860059,
+    "valid_pixels": 420236
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000324_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.265420837261892,
+    "aAcc": 0.7314506290256989,
+    "valid_pixels": 1829496
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000324_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.2751126463273295,
+    "aAcc": 0.6757049605678926,
+    "valid_pixels": 1365892
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000324_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.10909393815279382,
+    "aAcc": 0.895691150205779,
+    "valid_pixels": 463604
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000327_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.23131660224192566,
+    "aAcc": 0.5526381636376815,
+    "valid_pixels": 1586615
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000327_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.27363086646005547,
+    "aAcc": 0.7474028509845972,
+    "valid_pixels": 926978
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000327_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.08098914352206586,
+    "aAcc": 0.27893826453034015,
+    "valid_pixels": 659637
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000330_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.15452591400956692,
+    "aAcc": 0.34820102042141066,
+    "valid_pixels": 1925675
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000330_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.22861298765123844,
+    "aAcc": 0.7457012589544022,
+    "valid_pixels": 716547
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000330_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.04745341426103093,
+    "aAcc": 0.1126365446834413,
+    "valid_pixels": 1209128
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000333_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.1387062959552862,
+    "aAcc": 0.48338062336433557,
+    "valid_pixels": 1851694
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000333_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.19279422759197884,
+    "aAcc": 0.7371818381867528,
+    "valid_pixels": 995209
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000333_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.05164534195884433,
+    "aAcc": 0.18847148519822296,
+    "valid_pixels": 856485
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000336_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.17830531653192244,
+    "aAcc": 0.50643342639,
+    "valid_pixels": 1837590
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000336_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.219949470573085,
+    "aAcc": 0.7347207236501766,
+    "valid_pixels": 1014855
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000336_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.09022077267437587,
+    "aAcc": 0.22483788826292792,
+    "valid_pixels": 822735
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000339_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.10593898627243631,
+    "aAcc": 0.29012255566446304,
+    "valid_pixels": 1870089
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000339_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.13150536212277222,
+    "aAcc": 0.5611813469996606,
+    "valid_pixels": 963341
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000339_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.07195611680627931,
+    "aAcc": 0.0021461310088359722,
+    "valid_pixels": 906748
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000342_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.17002693084665582,
+    "aAcc": 0.38174006526165893,
+    "valid_pixels": 1845494
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000342_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.20652798663121472,
+    "aAcc": 0.6632014959695507,
+    "valid_pixels": 1056706
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000342_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.0648866989563464,
+    "aAcc": 0.004678063053697571,
+    "valid_pixels": 788788
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000345_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.09110508330790366,
+    "aAcc": 0.2999570301676365,
+    "valid_pixels": 1847808
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000345_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.12000580423450284,
+    "aAcc": 0.5465419242962989,
+    "valid_pixels": 913456
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000345_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.051947164754381964,
+    "aAcc": 0.05888680069181636,
+    "valid_pixels": 934352
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000348_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.24156434980628172,
+    "aAcc": 0.3618391335577978,
+    "valid_pixels": 1853003
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000348_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.23735963989295908,
+    "aAcc": 0.5575174969013831,
+    "valid_pixels": 1130343
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000348_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.1307609023859837,
+    "aAcc": 0.055770348434948665,
+    "valid_pixels": 722660
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000351_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.1571123657028926,
+    "aAcc": 0.34204533079796945,
+    "valid_pixels": 1910048
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000351_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.19889191185529878,
+    "aAcc": 0.6898483251511958,
+    "valid_pixels": 887095
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000351_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.025732871010826146,
+    "aAcc": 0.04043392022898413,
+    "valid_pixels": 1022953
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000354_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.13471810685189428,
+    "aAcc": 0.38771701169528844,
+    "valid_pixels": 1958823
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000354_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.16369252183038394,
+    "aAcc": 0.6734841778524128,
+    "valid_pixels": 1052828
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000354_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.043962438325493534,
+    "aAcc": 0.05563606863172534,
+    "valid_pixels": 905995
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000357_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.14316959271405322,
+    "aAcc": 0.39272698800233113,
+    "valid_pixels": 1902953
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000357_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.23072827199285312,
+    "aAcc": 0.7155350026544152,
+    "valid_pixels": 996453
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000357_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.005710345799145579,
+    "aAcc": 0.03788637617209046,
+    "valid_pixels": 906500
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000360_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.194461718451089,
+    "aAcc": 0.401634290577212,
+    "valid_pixels": 1957669
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000360_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.2795009062918897,
+    "aAcc": 0.7855479187219634,
+    "valid_pixels": 980191
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000360_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.015002561946600055,
+    "aAcc": 0.016655106304182807,
+    "valid_pixels": 977478
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000363_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.20637351707993087,
+    "aAcc": 0.45569311717402866,
+    "valid_pixels": 1985696
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000363_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.24495823945220163,
+    "aAcc": 0.712156755773777,
+    "valid_pixels": 1209780
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000363_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.021583949749174054,
+    "aAcc": 0.05582434181019595,
+    "valid_pixels": 775916
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000366_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.16394781148456003,
+    "aAcc": 0.42310232157103606,
+    "valid_pixels": 1862618
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000366_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.21962750126634456,
+    "aAcc": 0.6827374308149258,
+    "valid_pixels": 1035628
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000366_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.018233542336225355,
+    "aAcc": 0.0979649088864436,
+    "valid_pixels": 826990
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000369_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.12726296589825048,
+    "aAcc": 0.48072407545197915,
+    "valid_pixels": 1760590
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000369_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.15323133859919377,
+    "aAcc": 0.6578227392129429,
+    "valid_pixels": 1283668
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000369_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.002303484579317206,
+    "aAcc": 0.004050976889302654,
+    "valid_pixels": 476922
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000372_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.13801873374957568,
+    "aAcc": 0.4251116749319728,
+    "valid_pixels": 1848893
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000372_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.14801463072466783,
+    "aAcc": 0.6268906894270608,
+    "valid_pixels": 1206306
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000372_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.101978300812966,
+    "aAcc": 0.046319019837002616,
+    "valid_pixels": 642587
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000375_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.13357685824519644,
+    "aAcc": 0.47312453080627725,
+    "valid_pixels": 1895539
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000375_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.172724848225344,
+    "aAcc": 0.713170460370256,
+    "valid_pixels": 1236874
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000375_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.024957269855347828,
+    "aAcc": 0.02235430757668921,
+    "valid_pixels": 658665
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000378_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.11265314096707758,
+    "aAcc": 0.31933302102242783,
+    "valid_pixels": 1844316
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000378_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.12509316377089047,
+    "aAcc": 0.5764453405753688,
+    "valid_pixels": 986463
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000378_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.026896591656894352,
+    "aAcc": 0.023674219242690763,
+    "valid_pixels": 857853
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000382_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.21301293101426785,
+    "aAcc": 0.3483101243345015,
+    "valid_pixels": 1849929
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000382_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.23891945338786322,
+    "aAcc": 0.4500217977113866,
+    "valid_pixels": 1367116
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000382_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.026802339197549003,
+    "aAcc": 0.0603069925623378,
+    "valid_pixels": 482813
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000386_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.13795967985082616,
+    "aAcc": 0.3128656905712602,
+    "valid_pixels": 1919143
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000386_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.16482571160851323,
+    "aAcc": 0.460405554649984,
+    "valid_pixels": 1147219
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000386_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.03468373341552134,
+    "aAcc": 0.09359470621460143,
+    "valid_pixels": 771924
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000391_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.1628877482462487,
+    "aAcc": 0.4380849839086675,
+    "valid_pixels": 1864047
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000391_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.18436697087879836,
+    "aAcc": 0.5157463088159998,
+    "valid_pixels": 1531216
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000391_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.020915747170788573,
+    "aAcc": 0.08079776222767711,
+    "valid_pixels": 332831
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000395_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.12011713378575134,
+    "aAcc": 0.343226242028453,
+    "valid_pixels": 1774436
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000395_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.13011281495758145,
+    "aAcc": 0.459237124864611,
+    "valid_pixels": 1251948
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000395_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.06239089316047148,
+    "aAcc": 0.06524934543951248,
+    "valid_pixels": 522488
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000398_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.11398766914115666,
+    "aAcc": 0.37420418847567494,
+    "valid_pixels": 1745074
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000398_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.14201182505133128,
+    "aAcc": 0.5795525928700463,
+    "valid_pixels": 1025196
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000398_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.07561823013057818,
+    "aAcc": 0.0817624653066214,
+    "valid_pixels": 719878
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000401_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.1616880092268233,
+    "aAcc": 0.5921695429498878,
+    "valid_pixels": 1980855
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000401_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.19819206370399725,
+    "aAcc": 0.7423949883031783,
+    "valid_pixels": 1443982
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000401_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.018010706693427112,
+    "aAcc": 0.18812084049672828,
+    "valid_pixels": 536873
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000404_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.22796976000894587,
+    "aAcc": 0.7214761607849691,
+    "valid_pixels": 1998346
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000404_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.25171104687473345,
+    "aAcc": 0.8743090716651656,
+    "valid_pixels": 1546651
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000404_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.09425856109715557,
+    "aAcc": 0.1981602630093315,
+    "valid_pixels": 451695
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000408_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.2480805955049354,
+    "aAcc": 0.5700126832271462,
+    "valid_pixels": 1890686
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000408_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.3234907600210127,
+    "aAcc": 0.675576040683132,
+    "valid_pixels": 1207380
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000408_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.05087082603786371,
+    "aAcc": 0.38348558332577204,
+    "valid_pixels": 683306
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000414_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.15417946424483422,
+    "aAcc": 0.5451164539618555,
+    "valid_pixels": 2015861
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000414_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.18646550598404124,
+    "aAcc": 0.7931916634597223,
+    "valid_pixels": 1275877
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000414_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.022663027161532692,
+    "aAcc": 0.11738632186641873,
+    "valid_pixels": 739984
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000418_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.1791749205957487,
+    "aAcc": 0.5749957676463496,
+    "valid_pixels": 1949270
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000418_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.2188396132145775,
+    "aAcc": 0.7474794995724331,
+    "valid_pixels": 1492164
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000418_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.0025452367620269335,
+    "aAcc": 0.011944713042489051,
+    "valid_pixels": 457106
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000421_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.1548286637620353,
+    "aAcc": 0.6897475850092943,
+    "valid_pixels": 2035101
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000421_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.1755240115683893,
+    "aAcc": 0.8288248789804327,
+    "valid_pixels": 1665020
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000421_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.0840280073028628,
+    "aAcc": 0.0640292260343006,
+    "valid_pixels": 370081
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000424_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.14258268168712948,
+    "aAcc": 0.5367002699191813,
+    "valid_pixels": 2036906
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000424_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.13325569606821175,
+    "aAcc": 0.6863494648766681,
+    "valid_pixels": 1252515
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000424_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.15106530518404618,
+    "aAcc": 0.2977405401132853,
+    "valid_pixels": 784391
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000427_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.1299776276594332,
+    "aAcc": 0.6462494362338008,
+    "valid_pixels": 2033201
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000427_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.1477045259286943,
+    "aAcc": 0.8082673440098243,
+    "valid_pixels": 1607457
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000427_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.045023860008355884,
+    "aAcc": 0.03452779134879176,
+    "valid_pixels": 425744
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000430_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.1326522026311582,
+    "aAcc": 0.568775729283618,
+    "valid_pixels": 2030760
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000430_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.13143144701071682,
+    "aAcc": 0.729341927188343,
+    "valid_pixels": 1406121
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000430_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.05427007545940828,
+    "aAcc": 0.20732615158515558,
+    "valid_pixels": 624639
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000433_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.1923963764741646,
+    "aAcc": 0.6475538782703102,
+    "valid_pixels": 2041129
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000433_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.21421252661200893,
+    "aAcc": 0.8637918762677891,
+    "valid_pixels": 1497686
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000433_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.12664076142684477,
+    "aAcc": 0.051619029042604285,
+    "valid_pixels": 543443
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000437_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.15409070389412205,
+    "aAcc": 0.6101321488823539,
+    "valid_pixels": 2042015
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000437_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.17317428333466953,
+    "aAcc": 0.8021522368025789,
+    "valid_pixels": 1521301
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000437_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.062155277493005125,
+    "aAcc": 0.04913253724693402,
+    "valid_pixels": 520714
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000448_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.13084491559324102,
+    "aAcc": 0.6504171714090234,
+    "valid_pixels": 2025786
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000448_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.15233796117298948,
+    "aAcc": 0.7980828763761134,
+    "valid_pixels": 1621596
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000448_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.010068867547014956,
+    "aAcc": 0.05798758009846854,
+    "valid_pixels": 404190
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000452_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.1097898978285896,
+    "aAcc": 0.5392581095797232,
+    "valid_pixels": 1805334
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000452_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.1594987178144027,
+    "aAcc": 0.7482578209529877,
+    "valid_pixels": 1067485
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000452_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.024405853172954194,
+    "aAcc": 0.23688722218231645,
+    "valid_pixels": 737849
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000455_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.16719392899688032,
+    "aAcc": 0.6681565744936391,
+    "valid_pixels": 1997439
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000455_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.1900836532096139,
+    "aAcc": 0.8182487347040783,
+    "valid_pixels": 1608517
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000455_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.017167356583044302,
+    "aAcc": 0.047400249921578104,
+    "valid_pixels": 388922
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000458_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.10539474396326862,
+    "aAcc": 0.6688191909906466,
+    "valid_pixels": 1977678
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000458_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.12599452027000493,
+    "aAcc": 0.8278598437556877,
+    "valid_pixels": 1565881
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000458_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.009726617492201222,
+    "aAcc": 0.06405826171633111,
+    "valid_pixels": 411797
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000461_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.25685092670861,
+    "aAcc": 0.6997644720477063,
+    "valid_pixels": 2004433
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000461_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.29437406861611726,
+    "aAcc": 0.7885215467409417,
+    "valid_pixels": 1724762
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000461_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.05420079911633887,
+    "aAcc": 0.15238977226812933,
+    "valid_pixels": 279671
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000464_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.16611307337915737,
+    "aAcc": 0.6360018575110904,
+    "valid_pixels": 1931617
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000464_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.17104544268185362,
+    "aAcc": 0.735176814481078,
+    "valid_pixels": 1357468
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000464_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.07649017558944127,
+    "aAcc": 0.4015212079094451,
+    "valid_pixels": 574149
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000467_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.24847994582300503,
+    "aAcc": 0.7397066994144735,
+    "valid_pixels": 2028431
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000467_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.2525781773658389,
+    "aAcc": 0.8387582663191974,
+    "valid_pixels": 1520326
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000467_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.16585530809455667,
+    "aAcc": 0.4433296267503764,
+    "valid_pixels": 508105
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000470_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.20965279519500865,
+    "aAcc": 0.6850004883146564,
+    "valid_pixels": 1914749
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000470_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.29965716381910384,
+    "aAcc": 0.8081889988190096,
+    "valid_pixels": 1585957
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000470_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.034460552358367,
+    "aAcc": 0.09078992189590987,
+    "valid_pixels": 328792
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000473_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.1393356332051616,
+    "aAcc": 0.4840502209425604,
+    "valid_pixels": 1825135
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000473_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.18617312085827145,
+    "aAcc": 0.7647130836003982,
+    "valid_pixels": 1053739
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000473_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.015496240860883278,
+    "aAcc": 0.1006603612152513,
+    "valid_pixels": 771396
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000476_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.1467357819873783,
+    "aAcc": 0.33982864080805514,
+    "valid_pixels": 1826806
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000476_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.21435581680899352,
+    "aAcc": 0.4695913667316518,
+    "valid_pixels": 1086402
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000476_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.04178305466085244,
+    "aAcc": 0.14942652930021988,
+    "valid_pixels": 740404
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000479_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.12173300136220865,
+    "aAcc": 0.3009570834319727,
+    "valid_pixels": 1626295
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000479_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.16443793545906338,
+    "aAcc": 0.5632376330035468,
+    "valid_pixels": 669625
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000479_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.01529477942255549,
+    "aAcc": 0.1173727617673806,
+    "valid_pixels": 956670
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000482_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.08185400110678565,
+    "aAcc": 0.221235519478229,
+    "valid_pixels": 1757706
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000482_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.10677595851724492,
+    "aAcc": 0.5583302710350954,
+    "valid_pixels": 691202
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000482_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.00026310072522041226,
+    "aAcc": 0.0027641715361592643,
+    "valid_pixels": 1066504
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000485_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.14257976178614945,
+    "aAcc": 0.4900902732071186,
+    "valid_pixels": 1859688
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000485_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.18188581653055608,
+    "aAcc": 0.7138560943896839,
+    "valid_pixels": 1231321
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000485_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.033109520330723466,
+    "aAcc": 0.05160837536025921,
+    "valid_pixels": 628367
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000488_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "all",
+    "mIoU": 0.14217574323555066,
+    "aAcc": 0.5226948958587028,
+    "valid_pixels": 1798422
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000488_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv0",
+    "mIoU": 0.17738137269927048,
+    "aAcc": 0.7038373382797607,
+    "valid_pixels": 855567
+  },
+  {
+    "seed": "20261006",
+    "sample_id": "GOPR0356_frame_000488_rgb_anon",
+    "sequence": "GOPR0356",
+    "region": "inv1",
+    "mIoU": 0.044410673570089564,
+    "aAcc": 0.3583223295204459,
+    "valid_pixels": 942855
+  }
+]

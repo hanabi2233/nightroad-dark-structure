@@ -1,0 +1,11 @@
+Panel,Condition,PSNR (dB) ↑,SSIM ↑,LPIPS ↓
+LOLv2-real,RGB reconstruction,21.349 ± 0.065,0.7596 ± 0.0063,0.3405 ± 0.0115
+LOLv2-real,SUM4,21.225 ± 0.067,0.7655 ± 0.0009,0.2702 ± 0.0058
+LOLv2-real,Four-task PCGrad,21.139 ± 0.048,0.7714 ± 0.0032,0.2434 ± 0.0019
+LOLv2-real,Adapted GT-Mean,21.496 ± 0.081,0.7873 ± 0.0044,0.2881 ± 0.0135
+LOLv2-real,Three-task PCGrad (ours),21.246 ± 0.059,0.7734 ± 0.0028,0.2414 ± 0.0025
+Synthetic ACDC,RGB reconstruction,15.626 ± 0.463,0.7848 ± 0.0044,0.2176 ± 0.0053
+Synthetic ACDC,SUM4,16.039 ± 0.426,0.7965 ± 0.0100,0.1721 ± 0.0012
+Synthetic ACDC,Four-task PCGrad,15.834 ± 0.255,0.7982 ± 0.0079,0.1649 ± 0.0141
+Synthetic ACDC,Adapted GT-Mean,15.887 ± 0.691,0.8066 ± 0.0151,0.1926 ± 0.0055
+Synthetic ACDC,Three-task PCGrad (ours),16.139 ± 0.234,0.8075 ± 0.0043,0.1564 ± 0.0109

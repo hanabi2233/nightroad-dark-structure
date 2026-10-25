@@ -1,0 +1,12 @@
+# Dependency names only. Recorded versions and separate environments: README.md.
+torch
+numpy
+scipy
+einops
+opencv-python
+Pillow
+PyYAML
+# Full-reference scoring additionally requires:
+torchvision
+scikit-image
+lpips

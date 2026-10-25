@@ -1,0 +1,7 @@
+Row,Sequence,Frame,Input-luminance rank
+1,GOPR0351,000085,"Dark quantile, 1/6"
+2,GOPR0351,000115,"Middle quantile, 1/2"
+3,GOPR0351,000111,"Bright quantile, 5/6"
+4,GOPR0356,000488,"Dark quantile, 1/6"
+5,GOPR0356,000430,"Middle quantile, 1/2"
+6,GOPR0356,000470,"Bright quantile, 5/6"

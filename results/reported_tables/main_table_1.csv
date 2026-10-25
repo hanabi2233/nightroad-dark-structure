@@ -1,0 +1,8 @@
+Condition,Objectives,Update
+RGB reconstruction,$L_R$,Single objective
+Direct summation (SUM4),$L_R+L_S+L_++L_-$,Direct summation
+Four-task PCGrad,"$[L_R,L_S,L_+,L_-]$",Four-task PCGrad
+Adapted GT-Mean,GT-Mean loss,Single objective
+Three-task PCGrad (ours),"$[L_R,L_S,L_M]$",Three-task PCGrad
+Without S,"$[L_R,L_M]$",Two-task PCGrad
+Without M,"$[L_R,L_S]$",Two-task PCGrad

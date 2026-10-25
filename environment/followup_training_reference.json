@@ -1,0 +1,11 @@
+{
+  "python": "3.12.3",
+  "torch": "2.8.0+cu128",
+  "numpy": "2.3.2",
+  "scipy": "1.18.1",
+  "einops": "0.8.2",
+  "opencv": "5.0.0",
+  "Pillow": "11.3.0",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "cuda_build": "12.8"
+}

@@ -1,0 +1,2123 @@
+{
+  "seed": 20261006,
+  "role": "ZERO_STEP_UNTRAINED_NOT_PRETRAINED",
+  "file_sha256": "6a16a34b838cb8f1db70d0c7d2f3176ac61ac9e083ad38ee00487f93e8ebfa29",
+  "file_bytes": 6476107,
+  "rng_file_sha256": "4cf8a7251883caa8cb653f3ef72b6f66e5b568b4e8faea83afe3dbe7b48ce96a",
+  "source_architecture_sha256": "1567c89d55285a3c1a4d4ca33f288b1fd98dc6b6bbdf971eda02d745f9087631",
+  "legacy_initializer_sha256": "53b4464802dc29340fcb0f272f2df399ce06fab866f7821dc1116d67f1a810d9",
+  "tensors": [
+    {
+      "name": "body.0.estimator.conv1.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        4,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 160,
+      "bytes": 640,
+      "sha256": "90659cc26a21e234fdb2d7812e4154758b7ae7a11a6e0fc4d3117e3bceafaecb"
+    },
+    {
+      "name": "body.0.estimator.conv1.bias",
+      "role": "parameter",
+      "shape": [
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 40,
+      "bytes": 160,
+      "sha256": "576cc4fee5a25062e9c2e0666577655b605af0b88bad1b8a64cb06544b4f366e"
+    },
+    {
+      "name": "body.0.estimator.depth_conv.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        10,
+        5,
+        5
+      ],
+      "dtype": "torch.float32",
+      "numel": 10000,
+      "bytes": 40000,
+      "sha256": "d0f3ed623e88ca1164c9eeeef3aac08db7a8e243295a681e6843aacf31130d56"
+    },
+    {
+      "name": "body.0.estimator.depth_conv.bias",
+      "role": "parameter",
+      "shape": [
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 40,
+      "bytes": 160,
+      "sha256": "03b1b7fdcf79a722b98412a27b286bd141c8a113b37b4f1242448e3f312f31b7"
+    },
+    {
+      "name": "body.0.estimator.conv2.weight",
+      "role": "parameter",
+      "shape": [
+        3,
+        40,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 120,
+      "bytes": 480,
+      "sha256": "cf74cb1bdee980b0ac78ac6c9af4b933f5be89296a7c2e69555e089383b753db"
+    },
+    {
+      "name": "body.0.estimator.conv2.bias",
+      "role": "parameter",
+      "shape": [
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 3,
+      "bytes": 12,
+      "sha256": "c186a66dde3c2e79bd75b37d14becbe59838a4b882f9c2794ea5e8d8ffb61d5d"
+    },
+    {
+      "name": "body.0.denoiser.embedding.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 1080,
+      "bytes": 4320,
+      "sha256": "77e388b4e033e3a8aa08c1968b414fea5a0989d2249f44222d8bf37f1b6ea695"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.0.0.blocks.0.0.rescale",
+      "role": "parameter",
+      "shape": [
+        1,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 1,
+      "bytes": 4,
+      "sha256": "e00e5eb9444182f352323374ef4e08ebcb784725fdd4fd612d7730540b3e0c8c"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.0.0.blocks.0.0.to_q.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 1600,
+      "bytes": 6400,
+      "sha256": "f5512512ff06d495143a788014633754a7939dd3dc62bf0cf57cea6f5333638a"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.0.0.blocks.0.0.to_k.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 1600,
+      "bytes": 6400,
+      "sha256": "62d4613686a0c461aff3dc14c548ee95622beeadafaa55da8ad65445934ab340"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.0.0.blocks.0.0.to_v.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 1600,
+      "bytes": 6400,
+      "sha256": "277619176d84c467d204d0b255229f6ce121550069c791d11d7489b010ab8084"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.0.0.blocks.0.0.proj.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 1600,
+      "bytes": 6400,
+      "sha256": "22af11fc473f659fa3dc595536c20c86915d5388abb4b74f8a82a93feb3d3f89"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.0.0.blocks.0.0.proj.bias",
+      "role": "parameter",
+      "shape": [
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 40,
+      "bytes": 160,
+      "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.0.0.blocks.0.0.pos_emb.0.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 360,
+      "bytes": 1440,
+      "sha256": "79898f376147a6c00b933c9ab7d30d353fbe1a2a6469707a9010a702e3a8e106"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.0.0.blocks.0.0.pos_emb.2.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 360,
+      "bytes": 1440,
+      "sha256": "06d0d97cf89d8b7e6a1b199a08b1725822979cc33f8cfbbc48b33e79c83123b4"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.0.0.blocks.0.1.fn.net.0.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        40,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "af1d0f6a16b65e7146f5f296c11449c0fd21cd7a2238c60f1915e3cca1d83a5b"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.0.0.blocks.0.1.fn.net.2.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 1440,
+      "bytes": 5760,
+      "sha256": "28cecf288adf8fe3fab756beae14ab0750471884a04c779619a624fa4f26805b"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.0.0.blocks.0.1.fn.net.4.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        160,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "888e28ed6cc20c6ecfa4d20a399ed04cf8e6a028e51052ba64c1b84d55c5524c"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.0.0.blocks.0.1.norm.weight",
+      "role": "parameter",
+      "shape": [
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 40,
+      "bytes": 160,
+      "sha256": "a834ffb02981aa1f080d8686bd1f1f8f571e895ef8a6deef865cf90023a76e19"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.0.0.blocks.0.1.norm.bias",
+      "role": "parameter",
+      "shape": [
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 40,
+      "bytes": 160,
+      "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.0.1.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        40,
+        4,
+        4
+      ],
+      "dtype": "torch.float32",
+      "numel": 51200,
+      "bytes": 204800,
+      "sha256": "395da12c77d631ff1182f366416b72f1754ba39dc2b371a0af64b6b53ff440fe"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.0.2.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        40,
+        4,
+        4
+      ],
+      "dtype": "torch.float32",
+      "numel": 51200,
+      "bytes": 204800,
+      "sha256": "a0c2fdef5291c0e5a1e3c3514de41b4e13e852395fd222fbb28eabafe54faf4a"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.0.0.rescale",
+      "role": "parameter",
+      "shape": [
+        2,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 2,
+      "bytes": 8,
+      "sha256": "80b8fd6d60fa85fd14a38b5295cb92abd80dfec5ca406c9f969609a79d36809d"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.0.0.to_q.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "e1737b0c15b834d467b4b78a3a0dd2adc122879351a8580fc26d08c4df4f7969"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.0.0.to_k.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "7d80539f5cd5773bc5dbf1a864878cb92eab0c7b77009ee466c1f943a4adc529"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.0.0.to_v.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "66c4fb503b8a4e60031e414b5f6b5259396919048746237032a6f2595f84b037"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.0.0.proj.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "026ffa70bde9a3d392e231f5d064c0b697b5932bc28d078094a9e5772404464c"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.0.0.proj.bias",
+      "role": "parameter",
+      "shape": [
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 80,
+      "bytes": 320,
+      "sha256": "7b6436b0c98f62380866d9432c2af0ee08ce16a171bda6951aecd95ee1307d61"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.0.0.pos_emb.0.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 720,
+      "bytes": 2880,
+      "sha256": "a7edd4e5b78e8342434351ada98a10daf4d1e52c2ae6c7c8bfccf6519df6899c"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.0.0.pos_emb.2.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 720,
+      "bytes": 2880,
+      "sha256": "759c29dd8bd9cf5e31e5db7a2917ba526be4b234a2f05de418260b737eab97c7"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.0.1.fn.net.0.weight",
+      "role": "parameter",
+      "shape": [
+        320,
+        80,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "6949b844cfc5d021506d679680cc5d7c34d18b09d452d38731d62d8a139b0a34"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.0.1.fn.net.2.weight",
+      "role": "parameter",
+      "shape": [
+        320,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 2880,
+      "bytes": 11520,
+      "sha256": "2f4a893dbaf353b62456bb9eed27d8c16dcc83ea5c875ccaa39b00ced8cd25cc"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.0.1.fn.net.4.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        320,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "cee8c54af11610f14ab8f53de2027a1a4318f8453538f36783cd668736fc2f8c"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.0.1.norm.weight",
+      "role": "parameter",
+      "shape": [
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 80,
+      "bytes": 320,
+      "sha256": "beea08e0b2386530f2625dfcc037b7237b4ca13ad5732e9798f5bbc619054fc2"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.0.1.norm.bias",
+      "role": "parameter",
+      "shape": [
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 80,
+      "bytes": 320,
+      "sha256": "7b6436b0c98f62380866d9432c2af0ee08ce16a171bda6951aecd95ee1307d61"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.1.0.rescale",
+      "role": "parameter",
+      "shape": [
+        2,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 2,
+      "bytes": 8,
+      "sha256": "80b8fd6d60fa85fd14a38b5295cb92abd80dfec5ca406c9f969609a79d36809d"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.1.0.to_q.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "0d9e61836f56a4282080eabbc4992a59a205a1ceb25b3532c8ad614fb05761e7"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.1.0.to_k.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "0ed83242581aaf75a899c386b002cc79bb93c48934842fb8d172c8610f79b617"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.1.0.to_v.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "ffd04b9ad8bef57c2329ae5fb3bab450111a38cc09738cca2675783b1da84889"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.1.0.proj.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "8a811e3224590eb4130251bd0f7ea10e313713b9891b2ed36565db7d416c424c"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.1.0.proj.bias",
+      "role": "parameter",
+      "shape": [
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 80,
+      "bytes": 320,
+      "sha256": "7b6436b0c98f62380866d9432c2af0ee08ce16a171bda6951aecd95ee1307d61"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.1.0.pos_emb.0.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 720,
+      "bytes": 2880,
+      "sha256": "51b667aa781910d5e245d44ca14afee99236408444f944796d0f05d29ceeb849"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.1.0.pos_emb.2.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 720,
+      "bytes": 2880,
+      "sha256": "ed86a3473940c1d6ea79da3e4f98a99ee78b9c82cf518047584f9fbbeb4feef8"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.1.1.fn.net.0.weight",
+      "role": "parameter",
+      "shape": [
+        320,
+        80,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "f83546778d507fd669a6d191dd3c7f57f1373d8193aab2e89d0bb492f41e2ced"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.1.1.fn.net.2.weight",
+      "role": "parameter",
+      "shape": [
+        320,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 2880,
+      "bytes": 11520,
+      "sha256": "2fa34acba53385fdf51a92383d2f6ac84c3b272eb62e1490dea5239f2871a58b"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.1.1.fn.net.4.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        320,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "5485f89ab27465422baf23e796db8984a8306fde77838ad19aec5f3e70adfea0"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.1.1.norm.weight",
+      "role": "parameter",
+      "shape": [
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 80,
+      "bytes": 320,
+      "sha256": "beea08e0b2386530f2625dfcc037b7237b4ca13ad5732e9798f5bbc619054fc2"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.0.blocks.1.1.norm.bias",
+      "role": "parameter",
+      "shape": [
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 80,
+      "bytes": 320,
+      "sha256": "7b6436b0c98f62380866d9432c2af0ee08ce16a171bda6951aecd95ee1307d61"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.1.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        80,
+        4,
+        4
+      ],
+      "dtype": "torch.float32",
+      "numel": 204800,
+      "bytes": 819200,
+      "sha256": "513b195698930399ce4c98baa8bc0e914182b3fb40112705520bc1c7b0b5f515"
+    },
+    {
+      "name": "body.0.denoiser.encoder_layers.1.2.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        80,
+        4,
+        4
+      ],
+      "dtype": "torch.float32",
+      "numel": 204800,
+      "bytes": 819200,
+      "sha256": "be058ff389c48dd50d2d2485447c85797207cc5eaa18d6f5aa1c6ac89dfc8e93"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.0.0.rescale",
+      "role": "parameter",
+      "shape": [
+        4,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 4,
+      "bytes": 16,
+      "sha256": "f6bb1294da2f78cd935b01c7656280df5eaa0439e9d97bc03775825a41a508e4"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.0.0.to_q.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        160
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "cd1ce6daaa12cdb7b6b264ab21853753816075ff007df433e0bbd84d9aeb08ec"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.0.0.to_k.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        160
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "932339e132781be48c0d5fc8a9f3951313f5221543e04c321daa5e091d44ec71"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.0.0.to_v.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        160
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "2b3f947bdc503ba6228fd9ac7deb3de8625d4a714f84d11ddc9e76a1e87044a8"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.0.0.proj.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        160
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "a791d09d1056cf08e576135f9950f4f37f089335826cdc8db70e08e5f0cb491d"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.0.0.proj.bias",
+      "role": "parameter",
+      "shape": [
+        160
+      ],
+      "dtype": "torch.float32",
+      "numel": 160,
+      "bytes": 640,
+      "sha256": "9e132485d5107211de325a45e7917cbe3e4b5b9cde3e4ee91d7d2102317759ee"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.0.0.pos_emb.0.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 1440,
+      "bytes": 5760,
+      "sha256": "ffbc62774bbffc74d6c56ba9cfb302edae24bd454a52f76cdb1ba40f67131a3f"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.0.0.pos_emb.2.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 1440,
+      "bytes": 5760,
+      "sha256": "b7b8ea578321d4ea51f9b8152556ea53d5ff17cd9d931892d5e42456b02eb79e"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.0.1.fn.net.0.weight",
+      "role": "parameter",
+      "shape": [
+        640,
+        160,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 102400,
+      "bytes": 409600,
+      "sha256": "532796fbf7e2006fc77eb45d9cc33d6b3d7d78122c0dd6d0671d8c53c3ef925a"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.0.1.fn.net.2.weight",
+      "role": "parameter",
+      "shape": [
+        640,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 5760,
+      "bytes": 23040,
+      "sha256": "074a02962812e4d8b00e69c708bcccf3befe1ff7296ad75a2474e9e2549a6b80"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.0.1.fn.net.4.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        640,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 102400,
+      "bytes": 409600,
+      "sha256": "c7efc955f32c62fcf99f67d1fc2660acdd80157f78002b81bbed9ad123d2455b"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.0.1.norm.weight",
+      "role": "parameter",
+      "shape": [
+        160
+      ],
+      "dtype": "torch.float32",
+      "numel": 160,
+      "bytes": 640,
+      "sha256": "e67f1f457024f99bc16e7dde10f824f8d72bb4d317b23f00c1834272f2658001"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.0.1.norm.bias",
+      "role": "parameter",
+      "shape": [
+        160
+      ],
+      "dtype": "torch.float32",
+      "numel": 160,
+      "bytes": 640,
+      "sha256": "9e132485d5107211de325a45e7917cbe3e4b5b9cde3e4ee91d7d2102317759ee"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.1.0.rescale",
+      "role": "parameter",
+      "shape": [
+        4,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 4,
+      "bytes": 16,
+      "sha256": "f6bb1294da2f78cd935b01c7656280df5eaa0439e9d97bc03775825a41a508e4"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.1.0.to_q.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        160
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "7ffd5f95ffde49520ae1e799fc80635c370801c191d9d9b77ea519311654b763"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.1.0.to_k.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        160
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "6aa50517ae8623da1f6609ce480517e24d59d3515561e4e84aee32bdc614365d"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.1.0.to_v.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        160
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "5dbf4483eed1eec2b2b9b574ff143b7cf9359c55d20b353bf9295d4c6bd54841"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.1.0.proj.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        160
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "d9c2691e75628201955c76f79b1003b821d5b445ed01975453cdf934055999d9"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.1.0.proj.bias",
+      "role": "parameter",
+      "shape": [
+        160
+      ],
+      "dtype": "torch.float32",
+      "numel": 160,
+      "bytes": 640,
+      "sha256": "9e132485d5107211de325a45e7917cbe3e4b5b9cde3e4ee91d7d2102317759ee"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.1.0.pos_emb.0.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 1440,
+      "bytes": 5760,
+      "sha256": "3aefd1e005edecce20f8f1fc8172719f141a4268a3a8ef45c2f6c678581c6906"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.1.0.pos_emb.2.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 1440,
+      "bytes": 5760,
+      "sha256": "d0d135bb019e552837c748406fcb679c2238185f83eab1088c22723b7d8b8848"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.1.1.fn.net.0.weight",
+      "role": "parameter",
+      "shape": [
+        640,
+        160,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 102400,
+      "bytes": 409600,
+      "sha256": "74eab05c111f1653fe799563e9b1561bd61f2d885792b484536196530bd2fd8f"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.1.1.fn.net.2.weight",
+      "role": "parameter",
+      "shape": [
+        640,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 5760,
+      "bytes": 23040,
+      "sha256": "66e4db601457c7bb0e1bf7f0bad8dafa57e30517dffe782df02ef2efa2f11778"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.1.1.fn.net.4.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        640,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 102400,
+      "bytes": 409600,
+      "sha256": "7c766bd8a90129e233a44c2054a2f704a9a7df61df91bbabba3a652711b7ab0c"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.1.1.norm.weight",
+      "role": "parameter",
+      "shape": [
+        160
+      ],
+      "dtype": "torch.float32",
+      "numel": 160,
+      "bytes": 640,
+      "sha256": "e67f1f457024f99bc16e7dde10f824f8d72bb4d317b23f00c1834272f2658001"
+    },
+    {
+      "name": "body.0.denoiser.bottleneck.blocks.1.1.norm.bias",
+      "role": "parameter",
+      "shape": [
+        160
+      ],
+      "dtype": "torch.float32",
+      "numel": 160,
+      "bytes": 640,
+      "sha256": "9e132485d5107211de325a45e7917cbe3e4b5b9cde3e4ee91d7d2102317759ee"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.0.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        80,
+        2,
+        2
+      ],
+      "dtype": "torch.float32",
+      "numel": 51200,
+      "bytes": 204800,
+      "sha256": "04678c287f708a9f9325025492f7089e1333a0717c52cfbdeee6d98a6a08e32a"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.0.bias",
+      "role": "parameter",
+      "shape": [
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 80,
+      "bytes": 320,
+      "sha256": "ee88b2dba2d82a29f87ff68111da1454335274c9526c9027dea1f1f0b31abd32"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.1.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        160,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 12800,
+      "bytes": 51200,
+      "sha256": "3fe528601c5816edcf8b4cc776d7ac3d0cb5b6dd556f81494a4d92d1b5106dcd"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.0.0.rescale",
+      "role": "parameter",
+      "shape": [
+        2,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 2,
+      "bytes": 8,
+      "sha256": "80b8fd6d60fa85fd14a38b5295cb92abd80dfec5ca406c9f969609a79d36809d"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.0.0.to_q.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "159f8828bbe5d753e17a3e693eb24b302ce3e322d08a52a778682afd750fb5d6"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.0.0.to_k.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "350463275c173828da142d47fa422bfc5339606042ed82ff6d69a3a049a605dd"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.0.0.to_v.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "08b2089c6bd0d7336edd49b047d50cab942d0d87ad1b6865cf7f80e0eba62114"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.0.0.proj.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "f7e3beaf0f6fdd4b9b88eaa8e8127e187bef8909aa65ba877d0ee62af488b108"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.0.0.proj.bias",
+      "role": "parameter",
+      "shape": [
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 80,
+      "bytes": 320,
+      "sha256": "7b6436b0c98f62380866d9432c2af0ee08ce16a171bda6951aecd95ee1307d61"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.0.0.pos_emb.0.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 720,
+      "bytes": 2880,
+      "sha256": "397bb56207c1557546170cb1a47511905778b8ce10321a881da84e3671aec6fc"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.0.0.pos_emb.2.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 720,
+      "bytes": 2880,
+      "sha256": "a65a70e81c0332a4a78510aea3dc89092c52b30ed9cd4fe37e78fed4ec452e7a"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.0.1.fn.net.0.weight",
+      "role": "parameter",
+      "shape": [
+        320,
+        80,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "7dff82712d9351b9c4ee6379d625197523acf9afa68a76fe792d2e98b3132437"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.0.1.fn.net.2.weight",
+      "role": "parameter",
+      "shape": [
+        320,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 2880,
+      "bytes": 11520,
+      "sha256": "5003d069fcb62b67ce8f6018ffbc246f1d01e614fd5445c366d01079c0fe7f79"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.0.1.fn.net.4.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        320,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "09fb571e96b3e054b51360769280c1b11b080c352e0d32d18c6d52b12dc6eaa8"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.0.1.norm.weight",
+      "role": "parameter",
+      "shape": [
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 80,
+      "bytes": 320,
+      "sha256": "beea08e0b2386530f2625dfcc037b7237b4ca13ad5732e9798f5bbc619054fc2"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.0.1.norm.bias",
+      "role": "parameter",
+      "shape": [
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 80,
+      "bytes": 320,
+      "sha256": "7b6436b0c98f62380866d9432c2af0ee08ce16a171bda6951aecd95ee1307d61"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.1.0.rescale",
+      "role": "parameter",
+      "shape": [
+        2,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 2,
+      "bytes": 8,
+      "sha256": "80b8fd6d60fa85fd14a38b5295cb92abd80dfec5ca406c9f969609a79d36809d"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.1.0.to_q.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "a9e9d743750c808e5e6df44856712a0fe351c065d7a71545aa247d471dcac6bc"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.1.0.to_k.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "0d65f037a6017bab321b38fbcaa69d75e62d3148cb5b62b3a3cd622edaeb80ae"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.1.0.to_v.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "5d01d4557f84ecb297ccb7e576ab718c27fda41def497c86dc1298d0869496aa"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.1.0.proj.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "42e29f98ef48678830ed58d30ad9e264a5c640a6d952df4c6aee09a42a785ae9"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.1.0.proj.bias",
+      "role": "parameter",
+      "shape": [
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 80,
+      "bytes": 320,
+      "sha256": "7b6436b0c98f62380866d9432c2af0ee08ce16a171bda6951aecd95ee1307d61"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.1.0.pos_emb.0.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 720,
+      "bytes": 2880,
+      "sha256": "b295643b4dbe8560fdbd5c5add1204e82a6e7297458b4330b8127af11a2b35e6"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.1.0.pos_emb.2.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 720,
+      "bytes": 2880,
+      "sha256": "f11a181b02d6da98dbdb8f6ceaaa1ecccb79b8590f25096b35e1aa31ab4e580c"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.1.1.fn.net.0.weight",
+      "role": "parameter",
+      "shape": [
+        320,
+        80,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "e437cc2d11cbe0918118d11787f792438711a1ff9e366b020b20a2a1bd8edfd7"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.1.1.fn.net.2.weight",
+      "role": "parameter",
+      "shape": [
+        320,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 2880,
+      "bytes": 11520,
+      "sha256": "9a73d266edb75d148e476026902a6cadb7ebb5f9ccc81cb61448fd4a86ec28d2"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.1.1.fn.net.4.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        320,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 25600,
+      "bytes": 102400,
+      "sha256": "4df56d40622925e5c9d4fecd27fe437bc4182fe1b507f0ab5d3859c1ceb4cd6c"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.1.1.norm.weight",
+      "role": "parameter",
+      "shape": [
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 80,
+      "bytes": 320,
+      "sha256": "beea08e0b2386530f2625dfcc037b7237b4ca13ad5732e9798f5bbc619054fc2"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.0.2.blocks.1.1.norm.bias",
+      "role": "parameter",
+      "shape": [
+        80
+      ],
+      "dtype": "torch.float32",
+      "numel": 80,
+      "bytes": 320,
+      "sha256": "7b6436b0c98f62380866d9432c2af0ee08ce16a171bda6951aecd95ee1307d61"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.0.weight",
+      "role": "parameter",
+      "shape": [
+        80,
+        40,
+        2,
+        2
+      ],
+      "dtype": "torch.float32",
+      "numel": 12800,
+      "bytes": 51200,
+      "sha256": "f02656bdc1fe2bc7ae7cfd3dd835b62969ed55c6358219b55a4b0f62323c8f71"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.0.bias",
+      "role": "parameter",
+      "shape": [
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 40,
+      "bytes": 160,
+      "sha256": "78c1dd2d7ec18f6486e8c122a28e1fed0242225dfc329995fc3867950a3b6290"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.1.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        80,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 3200,
+      "bytes": 12800,
+      "sha256": "47a40fa96a2b8e4fb25e9dd543bb5045a01f2dadd4360e7352b17ce2be7f1921"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.2.blocks.0.0.rescale",
+      "role": "parameter",
+      "shape": [
+        1,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 1,
+      "bytes": 4,
+      "sha256": "e00e5eb9444182f352323374ef4e08ebcb784725fdd4fd612d7730540b3e0c8c"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.2.blocks.0.0.to_q.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 1600,
+      "bytes": 6400,
+      "sha256": "cd816cce9f9182893df6904ebcf7cfd0aea10c5d48eb0da920944abd24e3a017"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.2.blocks.0.0.to_k.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 1600,
+      "bytes": 6400,
+      "sha256": "c4047fccceb3531ebeba2e24dfeb043a05f71d674ad833c9501729d07397638f"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.2.blocks.0.0.to_v.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 1600,
+      "bytes": 6400,
+      "sha256": "16085b05bc70393480097dcfec20f6233c470838c4402de00bce756eecd8786b"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.2.blocks.0.0.proj.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 1600,
+      "bytes": 6400,
+      "sha256": "423cc53350602f511b85ae88e8429f855274b4b9477e9bfcda15ba4764b4eb09"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.2.blocks.0.0.proj.bias",
+      "role": "parameter",
+      "shape": [
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 40,
+      "bytes": 160,
+      "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.2.blocks.0.0.pos_emb.0.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 360,
+      "bytes": 1440,
+      "sha256": "fd5590df87488ed7cb98d8794a919a754d0da47ebb0b130db5ee64e6a3e67b88"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.2.blocks.0.0.pos_emb.2.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 360,
+      "bytes": 1440,
+      "sha256": "2c8e6075dfbaf7bfa2c1360c061c6fef7009f83ce3a310405d240d889021151c"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.2.blocks.0.1.fn.net.0.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        40,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "e363caa7cb1df07bdbe38d73604ea888e551a2a15b2fce39e26579c8a91e4dae"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.2.blocks.0.1.fn.net.2.weight",
+      "role": "parameter",
+      "shape": [
+        160,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 1440,
+      "bytes": 5760,
+      "sha256": "63f6d2cf5e9e46e416536a2bc5f237941feed607268354094748b38bfe424d0d"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.2.blocks.0.1.fn.net.4.weight",
+      "role": "parameter",
+      "shape": [
+        40,
+        160,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "numel": 6400,
+      "bytes": 25600,
+      "sha256": "6f82e37e6cf486a25fde86af80daa753702c387d8b231f80d0676b593c3a82b3"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.2.blocks.0.1.norm.weight",
+      "role": "parameter",
+      "shape": [
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 40,
+      "bytes": 160,
+      "sha256": "a834ffb02981aa1f080d8686bd1f1f8f571e895ef8a6deef865cf90023a76e19"
+    },
+    {
+      "name": "body.0.denoiser.decoder_layers.1.2.blocks.0.1.norm.bias",
+      "role": "parameter",
+      "shape": [
+        40
+      ],
+      "dtype": "torch.float32",
+      "numel": 40,
+      "bytes": 160,
+      "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+    },
+    {
+      "name": "body.0.denoiser.mapping.weight",
+      "role": "parameter",
+      "shape": [
+        3,
+        40,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "numel": 1080,
+      "bytes": 4320,
+      "sha256": "242851e472458229567c76cbede33b3a74632e1883be81a823d804fe7ca83852"
+    }
+  ],
+  "state_dict_metadata": {
+    "": {
+      "version": 1
+    },
+    "body": {
+      "version": 1
+    },
+    "body.0": {
+      "version": 1
+    },
+    "body.0.estimator": {
+      "version": 1
+    },
+    "body.0.estimator.conv1": {
+      "version": 1
+    },
+    "body.0.estimator.depth_conv": {
+      "version": 1
+    },
+    "body.0.estimator.conv2": {
+      "version": 1
+    },
+    "body.0.denoiser": {
+      "version": 1
+    },
+    "body.0.denoiser.embedding": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.0": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.0.to_q": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.0.to_k": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.0.to_v": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.0.proj": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.0.pos_emb": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.0.pos_emb.0": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.0.pos_emb.1": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.0.pos_emb.2": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.1": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.1.fn": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.1.fn.net": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.1.fn.net.0": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.1.fn.net.1": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.1.fn.net.2": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.1.fn.net.3": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.1.fn.net.4": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.0.blocks.0.1.norm": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.1": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.0.2": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.0": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.0.to_q": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.0.to_k": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.0.to_v": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.0.proj": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.0.pos_emb": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.0.pos_emb.0": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.0.pos_emb.1": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.0.pos_emb.2": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.1": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.1.fn": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.1.fn.net": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.1.fn.net.0": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.1.fn.net.1": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.1.fn.net.2": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.1.fn.net.3": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.1.fn.net.4": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.0.1.norm": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.0": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.0.to_q": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.0.to_k": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.0.to_v": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.0.proj": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.0.pos_emb": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.0.pos_emb.0": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.0.pos_emb.1": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.0.pos_emb.2": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.1": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.1.fn": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.1.fn.net": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.1.fn.net.0": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.1.fn.net.1": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.1.fn.net.2": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.1.fn.net.3": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.1.fn.net.4": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.0.blocks.1.1.norm": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.1": {
+      "version": 1
+    },
+    "body.0.denoiser.encoder_layers.1.2": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.0": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.0.to_q": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.0.to_k": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.0.to_v": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.0.proj": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.0.pos_emb": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.0.pos_emb.0": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.0.pos_emb.1": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.0.pos_emb.2": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.1": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.1.fn": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.1.fn.net": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.1.fn.net.0": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.1.fn.net.1": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.1.fn.net.2": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.1.fn.net.3": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.1.fn.net.4": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.0.1.norm": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.0": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.0.to_q": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.0.to_k": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.0.to_v": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.0.proj": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.0.pos_emb": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.0.pos_emb.0": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.0.pos_emb.1": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.0.pos_emb.2": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.1": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.1.fn": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.1.fn.net": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.1.fn.net.0": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.1.fn.net.1": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.1.fn.net.2": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.1.fn.net.3": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.1.fn.net.4": {
+      "version": 1
+    },
+    "body.0.denoiser.bottleneck.blocks.1.1.norm": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.0": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.1": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.0": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.0.to_q": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.0.to_k": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.0.to_v": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.0.proj": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.0.pos_emb": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.0.pos_emb.0": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.0.pos_emb.1": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.0.pos_emb.2": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.1": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.1.fn": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.1.fn.net": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.1.fn.net.0": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.1.fn.net.1": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.1.fn.net.2": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.1.fn.net.3": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.1.fn.net.4": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.0.1.norm": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.0": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.0.to_q": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.0.to_k": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.0.to_v": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.0.proj": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.0.pos_emb": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.0.pos_emb.0": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.0.pos_emb.1": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.0.pos_emb.2": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.1": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.1.fn": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.1.fn.net": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.1.fn.net.0": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.1.fn.net.1": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.1.fn.net.2": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.1.fn.net.3": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.1.fn.net.4": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.0.2.blocks.1.1.norm": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.0": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.1": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.0": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.0.to_q": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.0.to_k": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.0.to_v": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.0.proj": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.0.pos_emb": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.0.pos_emb.0": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.0.pos_emb.1": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.0.pos_emb.2": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.1": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.1.fn": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.1.fn.net": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.1.fn.net.0": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.1.fn.net.1": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.1.fn.net.2": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.1.fn.net.3": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.1.fn.net.4": {
+      "version": 1
+    },
+    "body.0.denoiser.decoder_layers.1.2.blocks.0.1.norm": {
+      "version": 1
+    },
+    "body.0.denoiser.mapping": {
+      "version": 1
+    },
+    "body.0.denoiser.lrelu": {
+      "version": 1
+    }
+  }
+}

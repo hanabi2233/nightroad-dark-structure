@@ -1,0 +1,6 @@
+Method,Implementation/checkpoint,Role
+RetinexNet,Public TensorFlow Decom and Relight components,Direct public-weight reference
+SCI,"CVPR stage=3, medium.pt",Direct public-weight reference
+EnlightenGAN,200_net_G_A.pth,Direct public-weight reference
+Zero-DCE,Epoch99.pth,Direct public-weight reference
+SCUF,"GEFU SCUF/test_model.pkl, SD-Turbo and CLIP ViT-B-32",Real-night understanding-oriented reference

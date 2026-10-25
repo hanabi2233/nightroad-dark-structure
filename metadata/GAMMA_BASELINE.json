@@ -1,0 +1,569 @@
+{
+  "article_title": "Dark-structure supervision and local-luminance gradient coordination for night-time road image enhancement",
+  "journal": "Signal, Image and Video Processing",
+  "role": "Existing Table 5 Gamma reference, not a new experiment",
+  "transform": {
+    "exponent": 0.5,
+    "direction": "sqrt(normalized_RGB), not squared RGB and not 1/0.5",
+    "input": "native-resolution RGB PNG decoded by Pillow into HWC uint8; non-RGB/non-PNG rejected",
+    "normalization": "astype(np.float64)/255.0",
+    "arithmetic_dtype": "float64",
+    "operation": "np.rint(np.clip(np.sqrt(x),0,1)*255).astype(np.uint8)",
+    "rounding": "nearest, ties to even via numpy.rint",
+    "output": "uint8 HWC RGB PNG",
+    "channelwise": true,
+    "gamma_linearization_before_transform": false,
+    "image_resize_during_generation": false,
+    "additional_exposure_or_colour_correction_during_generation": false,
+    "parameter_fitting_or_tuning": false,
+    "note": "The absence of resizing/correction refers to Gamma generation only; downstream segmenters retain their own fixed preprocessing."
+  },
+  "png_encoding": {
+    "library": "Pillow Image.fromarray(a).save(f, format=\"PNG\")",
+    "explicit_options": {
+      "format": "PNG"
+    },
+    "compress_level": "not explicitly specified; Pillow default",
+    "optimize": "not explicitly specified; Pillow default",
+    "metadata": "no explicit metadata options supplied",
+    "cross_version_encoded_byte_identity_claimed": false
+  },
+  "environment": {
+    "numpy": "1.26.4",
+    "Pillow": "10.4.0"
+  },
+  "source_identities": [
+    {
+      "path": "experiments/PAPER_B_NIGHTROAD_RESOURCE_PREP_V1/nightroad_core.py",
+      "lines": [
+        63,
+        71
+      ],
+      "sha256": "57cd3c21b1b874d25ebf4b43705e12d4c1588d064a25cd681ee445ebc53c5702",
+      "purpose": "Exact dtype check, normalization, gamma=0.5, clipping and ties-to-even quantization"
+    },
+    {
+      "path": "experiments/PAPER_B_NIGHTROAD_RESOURCE_PREP_V1/nightroad_cli.py",
+      "lines": [
+        22,
+        32
+      ],
+      "sha256": "5f40deb62a6b15909cbda3ff481af3c49a0e9e31b10ad9c3525c3bd449be6714",
+      "purpose": "PNG RGB decoding and PNG encoding"
+    },
+    {
+      "path": "experiments/PAPER_B_NIGHTROAD_RESOURCE_PREP_V1/nightroad_cli.py",
+      "lines": [
+        95,
+        117
+      ],
+      "sha256": "5f40deb62a6b15909cbda3ff481af3c49a0e9e31b10ad9c3525c3bd449be6714",
+      "purpose": "Gamma generation directly calls gamma and saves at original dimensions; no resize or extra correction"
+    },
+    {
+      "path": "experiments/PAPER_B_NIGHTROAD_RESOURCE_PREP_V1/nightroad_cli.py",
+      "lines": [
+        40,
+        51
+      ],
+      "sha256": "5f40deb62a6b15909cbda3ff481af3c49a0e9e31b10ad9c3525c3bd449be6714",
+      "purpose": "Segmenter input is bound to the saved Gamma PNG hash"
+    },
+    {
+      "path": "experiments/PAPER_B_NIGHTROAD_RESOURCE_PREP_V1/nightroad_cli.py",
+      "lines": [
+        119,
+        130
+      ],
+      "sha256": "5f40deb62a6b15909cbda3ff481af3c49a0e9e31b10ad9c3525c3bd449be6714",
+      "purpose": "SegFormer reads the hash-verified saved image"
+    }
+  ],
+  "execution_source_seal": {
+    "path": "experiments/PAPER_B_NIGHTROAD_VAL106_EXECUTION_V1/recovery_assets/RUNTIME_RESOURCE_SEAL.csv",
+    "lines": [
+      356,
+      357
+    ],
+    "sha256": "017e15129b0405a7598b007a5e5e934220be4bb178ac3cd2133b6ae011ce72ea",
+    "purpose": "Runtime seal identifies the exact scientific CLI and core"
+  },
+  "generation_manifest": {
+    "path": "experiments/PAPER_B_NIGHTROAD_VAL106_EXECUTION_V1/results_recovery/enhanced/Gamma/OUTPUTS.json",
+    "sha256": "0a1a602e1b20410653d4bc2a3453b23b67c9b4917a7dd59a486141629eb6961a",
+    "count": 106
+  },
+  "second_segmenter_reuse_manifest": {
+    "path": "experiments/PAPER_B_NIGHTROAD_SECOND_SEGMENTER_RESOURCE_READY_V1/package/REUSE_ASSET_MANIFEST.csv",
+    "sha256": "460b66566bdfada54019816b3fe9bcfa7f3fd43522ec323e82c09438fa79f9bc",
+    "gamma_count": 106,
+    "first_gamma_row": 3
+  },
+  "archived_outputs": [
+    {
+      "sample_id": "GOPR0351_frame_000033_rgb_anon",
+      "png_sha256": "f9393b57731d9d44e35362526454e520ff4d98a377f49ebc7ba0045c40dcc3c8"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000039_rgb_anon",
+      "png_sha256": "b07ef9ad65c94136a5801a1c1dd7aa12e448313444c66ee54c0a8f2ebb26df00"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000043_rgb_anon",
+      "png_sha256": "767b3fe87bc7efc24d1f974ee07f80a82f1db8d13423e7af696511c26116d15e"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000047_rgb_anon",
+      "png_sha256": "55f9d1869ea30124b206cebb1ce6ccfb9d973be1efbddf2dee394ad2afa5982a"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000049_rgb_anon",
+      "png_sha256": "a355ac6bfe8ef6bd7e2b8c9ce4a3dfe065e5510fe3476e202f12b82f8e4e1a74"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000053_rgb_anon",
+      "png_sha256": "3ebe0bba912012e3911676808cdd21a2203005667689e86a8c3832c764920969"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000055_rgb_anon",
+      "png_sha256": "5d61a31c650a4cbcfea7c701047e67c3bc1e73c7d619731d451173f9d93ca2f9"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000057_rgb_anon",
+      "png_sha256": "7a125ffdd7849b8a58446ec20fe7eed382fb4eb3e63f6a94d9e1ff04d01949a6"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000059_rgb_anon",
+      "png_sha256": "3722dd412b3ec987051ab71d5d8f57a72a63aad64307220802ce0da574076838"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000061_rgb_anon",
+      "png_sha256": "29737d950f941ca4b9decf28c0aeffc9a453bdf5dc55fd996ee5c29a7b3ee10b"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000063_rgb_anon",
+      "png_sha256": "be82abec240f23ea8178b8d9bac0a674d30525b433b61106299880260a9cf6a4"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000065_rgb_anon",
+      "png_sha256": "4f2b71fc0856ddbcf660396ab478db3efc0fff65448caff98ee7bbf54255ffef"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000067_rgb_anon",
+      "png_sha256": "4ebd3b89afef80b104c3dd73b96a516e6bf0aed2fd17a721b78542e4550c34d9"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000069_rgb_anon",
+      "png_sha256": "9bed0ddf9d9390233d071204f1373b64010d78dfd4f0209a7dccbe58f644983a"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000071_rgb_anon",
+      "png_sha256": "d865065fe30d007d177a4e763c374c749bec7a1cf6d7909b934ee91cf892f978"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000079_rgb_anon",
+      "png_sha256": "bd1e26f8bf8cd2fcf8731fde9c83c5371893125693e80d2e731beda6341913d7"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000081_rgb_anon",
+      "png_sha256": "091daa6b98e52d02657dfc5745fa92c931f90af8b9df4c5724c538a539eb6c7e"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000083_rgb_anon",
+      "png_sha256": "aaa1c8169bf3b50b68255344f9d74f25e97ee62a42106d0a33f44940d471e3f1"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000085_rgb_anon",
+      "png_sha256": "57fbb8e2b240785c5d82e7411a2a7ae9bef6517e0abb470e4260b782df468801"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000087_rgb_anon",
+      "png_sha256": "74a074db1945e66501f9bf111d6c0de2c37ee394359d40975a27acc8d8d42a94"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000089_rgb_anon",
+      "png_sha256": "955e46045f73d358850fc93c384c5b9da3014e4a2b779548abd26e47137a9ad1"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000091_rgb_anon",
+      "png_sha256": "0912cbb388b61e9111e12dc5fff4eb3ab03c51ad7a1a69c2ef087f4d03ac5f09"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000093_rgb_anon",
+      "png_sha256": "514e0658a4eb5ba3cfb71eeaf2bd97bc1c0f3b6754e12948428b91548f7b1fdc"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000095_rgb_anon",
+      "png_sha256": "21dfc2405d297c07261e61793fca2ea3723e7aa59f2930604426e3ef9f9d0df5"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000099_rgb_anon",
+      "png_sha256": "3990720489dcf8b86911a32e131416ae3133308acb61fe7135805958bc319dec"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000101_rgb_anon",
+      "png_sha256": "c7068288322125c3293d8efe3d505480b20832bc73fac724804fad7063aa0cf7"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000105_rgb_anon",
+      "png_sha256": "8b41bfdaacf72b0e9f8e090b93b13d45e0bef401ab5d3eb8afbd9cf052616c74"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000111_rgb_anon",
+      "png_sha256": "9e41f6f95d6d10d68341a5756137f48ecf4d5c6c7150302e1b82adebb443aa58"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000113_rgb_anon",
+      "png_sha256": "e54c2178775da40ac88504558105b64b1e6699e8ccf0809e2ae1f617724e5cb4"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000115_rgb_anon",
+      "png_sha256": "09b942396f5ddaffc3035693d3c4fd45848530e7773b2f798e74b25c22d974d9"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000121_rgb_anon",
+      "png_sha256": "2f579f2bad1430e2004007f189f17761b0d6cd64055693bfa2f824f968f96063"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000124_rgb_anon",
+      "png_sha256": "481569033203e0cf83d7c6f2000484b91119d7d98ce0ac0d794e8ce649d8a275"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000128_rgb_anon",
+      "png_sha256": "aaf94ce332b232d982adadbed0dde7df7d69cb419aeb0176613c4f18efe78b49"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000132_rgb_anon",
+      "png_sha256": "9cd401028502c2e4069ecb923ea277efa2c6cc2c7ead88249dd6abedc27a4a48"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000141_rgb_anon",
+      "png_sha256": "f5c294b5504941926e13cc4103b08a7fd1186fc41ea79ea62a468532a7571070"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000143_rgb_anon",
+      "png_sha256": "53e32ec1b660fab36aa2b8d1303a324186b6dd0e514f7d6875e21daf44cabae3"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000651_rgb_anon",
+      "png_sha256": "1752dce31a05887aebb2ca748f71f8aca22b35cf6df80ce88a181033c8f532e1"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000654_rgb_anon",
+      "png_sha256": "44055ebc282d4d061ba01b10ba68c21fd40b23d2b1662a6b512f5944da7c1c46"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000706_rgb_anon",
+      "png_sha256": "9b6d776ee9f75482b17895c5d8e3f7c078b584ab2bc47e92ac2f95a4c5fad5a4"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000709_rgb_anon",
+      "png_sha256": "d2cfd0ad48bc2936399e68ee7011bf694ed245e692e405a44a9603ef30ef448a"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000712_rgb_anon",
+      "png_sha256": "585724bb4f1b41488af637878dbc876b0a5221154652b54ea2be164940ac5d6c"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000718_rgb_anon",
+      "png_sha256": "755bd2af19400e2fa47779147c580287583ad5836da6159e4e92c454f7bec6de"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000724_rgb_anon",
+      "png_sha256": "e96abeef578db8e9966a27b612709bc2beef2aeceb79786333e3c45efe7c0340"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000727_rgb_anon",
+      "png_sha256": "a77f0d7ffc4467d9f144590e0cd99b25989db5e28277909774ade5da7341d8aa"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000742_rgb_anon",
+      "png_sha256": "778c50a384e1f883aa8d4f033b98e817b18f3873b3bdec73ae99b73be03c2764"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000745_rgb_anon",
+      "png_sha256": "e485b6a49f42798d40b6238a3561ed0877f1dbbf4ed8f5dbca0e5f385ba7d75a"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000748_rgb_anon",
+      "png_sha256": "de162b69fa4108191a642b31fa21d29a7f2ddb237c544208ca966ab33fd48fdc"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000754_rgb_anon",
+      "png_sha256": "1dd48eb8e1ea4b13056ca3eac90960fbd855fdbd45e9119d5bd52bc3ec6bb183"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000761_rgb_anon",
+      "png_sha256": "64e2501adc02692260773bdff74e369a202b2852b16125dd092adb8422aded41"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000770_rgb_anon",
+      "png_sha256": "cc953f31e016daaac8ecc2812fcc16d4ff7e283e08d8340400c5815849fa5261"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000774_rgb_anon",
+      "png_sha256": "31da8b0b2464ef2783238257c397ebbcb483a2d2f65734eb1b789b59700c67d7"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000809_rgb_anon",
+      "png_sha256": "c20621c3538d5fe4a1d4ea65e322db3bb927996f82e2762fc9811ae3ffb85382"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000814_rgb_anon",
+      "png_sha256": "0f3312e280f41dcd63b8d970c5413bb5a27e9d640b5a33c027cce842ecc672ce"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000818_rgb_anon",
+      "png_sha256": "ac05fc90d2407c4b5b6b2d4f66dc0d24cc9a2be71ed1665b774d156f3540c7af"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000822_rgb_anon",
+      "png_sha256": "f2dc3dcdc5264fdb15f2638b9856e1af57dfbbaefc739a20baa7897d5c9d89af"
+    },
+    {
+      "sample_id": "GOPR0351_frame_000825_rgb_anon",
+      "png_sha256": "a088ac7b1a70c1b425b20aa0d0324274956297b757fd3488b71691561df868ed"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000321_rgb_anon",
+      "png_sha256": "962c168aa3dee711a7fb30e3d7fa9e55aabae5a140696e6670ae9a219b66c948"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000324_rgb_anon",
+      "png_sha256": "95006238022b7235f11f7bc0afb48771ee62de83696ddfee41cbf61893579eaf"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000327_rgb_anon",
+      "png_sha256": "1c48362ac052be4366508c39d532482c0f68bbc29f6a824f2a5546dba4190ad4"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000330_rgb_anon",
+      "png_sha256": "6856ffb0894bfff892fcd6eff8c61fa048f86dbc458ebf8da2137081bd29f2f7"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000333_rgb_anon",
+      "png_sha256": "80f769333abd4770cf205b1743f0b5c3dcc9e39a1159db26b4c20cc6f19e557d"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000336_rgb_anon",
+      "png_sha256": "b0b61da4d43ab5a79c7748621eb96fc99858a37fd5598adcec05061b6bcea6f6"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000339_rgb_anon",
+      "png_sha256": "e49fa4da8f3c4b20b66ea341aca61cae08499582a9dad765e38e69f0a14d0c0c"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000342_rgb_anon",
+      "png_sha256": "f35993ee3eb970a234dd760938fb206d629833fcce9788c054b180ddf03c3ef0"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000345_rgb_anon",
+      "png_sha256": "c367a2bb34cc022b23d51ede577a9280016529cce14c9173f98d18c839e46d1a"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000348_rgb_anon",
+      "png_sha256": "d5b1422512ec0858031b9423d7362f4a369e9f21383878cbcab79067dd24763e"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000351_rgb_anon",
+      "png_sha256": "c66523a18ad845233309670fee6236fd764e2b371b8e12ee23c6b483125ffe2d"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000354_rgb_anon",
+      "png_sha256": "a62c74bdc0d249763cc7dc2de64191faf5781342212964f47e78b2a470c3a435"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000357_rgb_anon",
+      "png_sha256": "7516620302b6faaaead31028b232f562e4a057aa9e94a4ea1da1ecb99dee7bb6"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000360_rgb_anon",
+      "png_sha256": "d43de77a047762bdb2f82f06cc5833c3e58ad73fc897d7865b69d35dcbac6998"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000363_rgb_anon",
+      "png_sha256": "8ea7262e3a307437071ac82f0f6b53b4ff53b1b9c10b04bc43eb6bc15c6491cf"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000366_rgb_anon",
+      "png_sha256": "d2dec3fa538eabaa41c17c994248608b8f48da22a00cdfa178dcd5f12d7ab237"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000369_rgb_anon",
+      "png_sha256": "3d2503f594123a40e565ca6bcaf0e0287cfec935eecd1f49563b7f2ddc833a09"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000372_rgb_anon",
+      "png_sha256": "b559ce2fe95e68e55ba60128ca0f4f29ce94404bb60519fe09c9c8ee5f066a9b"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000375_rgb_anon",
+      "png_sha256": "fbf61be15bb8c8f05760f6adc261f9e9a06e41f79651434a6decc2c511f63440"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000378_rgb_anon",
+      "png_sha256": "ffb4c4b6e239848206f88ce73260f0b9ecbc853584b5b245597e4d8d1b9ed897"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000382_rgb_anon",
+      "png_sha256": "b59ed6cdeef8c125f3d83ab360e20ff749da5552e1853f130a59baaa99015420"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000386_rgb_anon",
+      "png_sha256": "6f3a9a80a7e2ffc0c24c822ee99f96c3f92e4fd7997cf2c2ed046dbc64ff11bb"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000391_rgb_anon",
+      "png_sha256": "6dbab8235845d80d4ff77b72a5ad75f74e682adf0adb2c5407dc73b0a3f4f6be"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000395_rgb_anon",
+      "png_sha256": "bc8ccdb383fdfa0a7c63ee658349d31af384889a61c02e21b1b0e2ee456c1c06"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000398_rgb_anon",
+      "png_sha256": "d8a86f636fa4128a613bf4134ea359975dc5e06d0417231c39a45bb9fc6afc99"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000401_rgb_anon",
+      "png_sha256": "dff1d0aecd35d45c6aa4f388f0b184ee4d7a2ab8953a04b62ec00d9628607b15"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000404_rgb_anon",
+      "png_sha256": "70fbfbc3e9800b2c7d600ee8d8bfd4d0288ddb30137552bd511c297c133e6b2e"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000408_rgb_anon",
+      "png_sha256": "d0085852bbb4d5fe94daec0ea9d2f3188162231c08b2e15efe5aa3a20606a154"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000414_rgb_anon",
+      "png_sha256": "d4644e420d8d76dbec9cce4c4611853b68710f13f3adbdf783d2d407ddef00d3"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000418_rgb_anon",
+      "png_sha256": "7ca35353e66a71d7f3a60161787b7c6c0560c208576507e94452c7371bd6d252"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000421_rgb_anon",
+      "png_sha256": "288345660667b4ab525c5ee24d89cf1cf4d6055d930bb061375b920537a62e79"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000424_rgb_anon",
+      "png_sha256": "478d4cd173499ff39082567a6feeea9b88af487c204f4659ef7593cf531b20f4"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000427_rgb_anon",
+      "png_sha256": "08a87483c8f5c626c1c0c982bb46ab86f22405dac0cfac3822238e1a8ff0dd19"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000430_rgb_anon",
+      "png_sha256": "b7ac3bb87c976b5a47c071a922fc6cba079e23ec259a2fa5908b759d67c70288"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000433_rgb_anon",
+      "png_sha256": "68fe51a80e9b804d1388ff9ee1a504a65236986f5c2c5fc635be496ec4ca47a8"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000437_rgb_anon",
+      "png_sha256": "a67541f9547c1d7431f867badf38c0feddf7678325d5503ae7c4e56c73ae9763"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000448_rgb_anon",
+      "png_sha256": "640e89036f2ffb79da1880e12f65e103dabeeb1f0f0fb3b2e8aeae176020906b"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000452_rgb_anon",
+      "png_sha256": "69fb51573b21f298354e652b7c6edf5ce4f6b162c5a0fc694dd7134f1faf6467"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000455_rgb_anon",
+      "png_sha256": "d04467afd10c5d27a78710acedcb236aee6961b57e2debb002de4aca0fe4ee7d"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000458_rgb_anon",
+      "png_sha256": "fe61e31f9d5dc64571c66b7a12e8051af1838670848c6b8f6c86d2a39118a0d7"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000461_rgb_anon",
+      "png_sha256": "7a42bc15ea2ef479baf0a67d04b20b6838649f0885bb86aa31b1c0259ab01d1a"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000464_rgb_anon",
+      "png_sha256": "ce7ab305b2541c97ffbece2712da8a68990a1146e74050c087701d8a0d44280b"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000467_rgb_anon",
+      "png_sha256": "47d74eb31a013cec85ff6454304cce15de8c8b455e3f2226ec57b0148d986ff8"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000470_rgb_anon",
+      "png_sha256": "68261d625932be5758e5d462431917622ab4ed5ab3954eda12a9f12989ef9054"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000473_rgb_anon",
+      "png_sha256": "dd6c558fc5c6c28458478ae90edac2f9d130ed197749fc00c0f0e0ae959d021b"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000476_rgb_anon",
+      "png_sha256": "b62e55bcc57db5ced86a07121d10047855bf043aa00ff410e1959fbee8d2c302"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000479_rgb_anon",
+      "png_sha256": "11247420314a4cc34688a70d17cea3426b18d0e40ae5e27f3fc4d98616057ff7"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000482_rgb_anon",
+      "png_sha256": "461571f6c0536f954b32e9170ef419bcf00fa0dfc89dd0522754cf37e7d50927"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000485_rgb_anon",
+      "png_sha256": "3b8720325c1ba27197e72a95659129363c05520b81742f34282f418643b6fe3a"
+    },
+    {
+      "sample_id": "GOPR0356_frame_000488_rgb_anon",
+      "png_sha256": "4f17be1c0b2e0cc5a646b9e6e68f6c176b119404cfdc8acf6a488b18ec3c066f"
+    }
+  ],
+  "reported_results": [
+    {
+      "evaluator": "SegFormer-B1",
+      "method": "Gamma",
+      "group": "ALL",
+      "region": "all",
+      "raw_mIoU": 0.18150076641302398,
+      "mIoU_percent": 18.150076641302398,
+      "table5_rounded": "18.1501",
+      "defined_classes": 19,
+      "aggregate_path": "experiments/PAPER_B_NIGHTROAD_VAL106_EXECUTION_V1/results_recovery/aggregate/DATASET_CLASS_RESULTS.json",
+      "aggregate_sha256": "3abcf6631f8ba58e4100331854787945de734e98d422f20837e7ff55158fbc21",
+      "aggregate_record_lines": [
+        3345,
+        3348
+      ]
+    },
+    {
+      "evaluator": "DeepLabV3+-R50",
+      "method": "Gamma",
+      "group": "ALL",
+      "region": "all",
+      "raw_mIoU": 0.09934129907716072,
+      "mIoU_percent": 9.934129907716072,
+      "table5_rounded": "9.9341",
+      "defined_classes": 19,
+      "aggregate_path": "experiments/PAPER_B_NIGHTROAD_SECOND_SEGMENTER_EXECUTION_V1/output/results/aggregate/DATASET_CLASS_RESULTS.json",
+      "aggregate_sha256": "099168ab3b284eb638941438b07bd9fe260a0f0f06dfcd62f9bcca06958c850c",
+      "aggregate_record_lines": [
+        3345,
+        3348
+      ]
+    }
+  ],
+  "verification": {
+    "exact_gamma_members": true,
+    "all_106_actual_png_hashes_match_both_records": true,
+    "retained_sources_match_executed_runtime_seal": true,
+    "table5_exact_rounded_values": true
+  },
+  "access_note": "Paths identify archived provenance, not download locations. No data images, model weights or complete executable pipeline are included here."
+}

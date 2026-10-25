@@ -1,0 +1,4 @@
+Comparator (three-task minus comparator),ΔNIQE,ΔMUSIQ,ΔSegFormer mIoU (pp),ΔDeepLab mIoU (pp)
+RGB reconstruction,−0.4420,+0.0525,−0.8337,−0.0701
+SUM4,+0.2969,−1.1312,−0.8159,−0.0118
+Four-task PCGrad,−0.0327,+1.6551,−0.0949,−0.2592

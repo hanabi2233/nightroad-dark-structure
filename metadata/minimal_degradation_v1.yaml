@@ -1,0 +1,39 @@
+protocol_version: ACDC_MINDEG_V1
+global_seed: 2026
+color_space: RGB
+dtype: float32
+operation_order:
+  - global_exposure_attenuation
+  - smooth_spatial_illumination_attenuation
+  - heteroscedastic_signal_dependent_noise
+  - clip_to_output_range
+exposure_range:
+  min: 0.32
+  max: 0.56
+illumination_field_type: smooth_gaussian_radial_attenuation
+illumination_parameter_range:
+  local_attenuation_strength:
+    min: 0.18
+    max: 0.34
+  center_x:
+    min: -0.35
+    max: 0.35
+  center_y:
+    min: -0.35
+    max: 0.35
+  spread:
+    min: 0.70
+    max: 1.30
+noise_model: single_heteroscedastic_gaussian_signal_dependent
+noise_parameter_range:
+  shot_noise_coefficient: 0.012
+  read_noise_floor: 0.003
+clipping_rule: clip
+output_range: [0.0, 1.0]
+train_generation_policy: fixed_primary_parameters_per_source
+validation_generation_policy: fixed_primary_parameters_per_source
+local_derivatives: LOCAL_ONLY_DO_NOT_DISTRIBUTE
+pretraining_correction:
+  count: 1
+  old_exposure_range: [0.18, 0.42]
+  reason: synthetic_luminance_was_materially_lower_than_fixed_real_acdc_night_diagnostic

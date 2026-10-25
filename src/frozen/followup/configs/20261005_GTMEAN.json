@@ -1,0 +1,53 @@
+{
+  "seed": 20261005,
+  "total_attempts": 8000,
+  "l1_warmup": 500,
+  "batch": 8,
+  "crop": 256,
+  "precision": "FP32",
+  "amp": false,
+  "optimizer": {
+    "name": "Adam",
+    "lr": 0.0002,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-8,
+    "weight_decay": 0,
+    "clip_norm": 0.01
+  },
+  "scheduler": {
+    "name": "cosine",
+    "T": 8000,
+    "eta_min": 0.000001
+  },
+  "mixup": {
+    "beta": 1.2,
+    "use_identity": true
+  },
+  "dataset": {
+    "binding": "explicit verified DATA_MANIFEST and binding file",
+    "split": "train551"
+  },
+  "resume_allowed": false,
+  "historical_checkpoint": null,
+  "variant": "GTMEAN",
+  "trace_steps": [
+    500,
+    501,
+    8000
+  ],
+  "checkpoint_steps": [
+    8000
+  ],
+  "evaluation": "local same common PNG val138 fixed last only; descriptive paired seeds",
+  "initialization_identity": "initialization/20261005/IDENTITY.json",
+  "candidate": {
+    "type": "GTMEAN",
+    "source_commit": "1a09e2e077613c195ae7890005ffdfc8ce01dd4d",
+    "sigma": 0.1,
+    "reduction": "none_then_mean",
+    "warmup": "R"
+  }
+}

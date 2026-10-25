@@ -1,0 +1,7 @@
+Panel,Tasks,PSNR (dB) ↑,SSIM ↑,LPIPS ↓
+LOLv2-real,"Complete [R,S,M]",21.246 ± 0.059,0.7734 ± 0.0028,0.2414 ± 0.0025
+LOLv2-real,"Without S [R,M]",21.114 ± 0.077,0.7333 ± 0.0039,0.3805 ± 0.0072
+LOLv2-real,"Without M [R,S]",21.403 ± 0.100,0.7923 ± 0.0033,0.2223 ± 0.0042
+Synthetic ACDC,"Complete [R,S,M]",16.139 ± 0.234,0.8075 ± 0.0043,0.1564 ± 0.0109
+Synthetic ACDC,"Without S [R,M]",15.747 ± 0.744,0.7796 ± 0.0158,0.2269 ± 0.0011
+Synthetic ACDC,"Without M [R,S]",16.098 ± 0.445,0.8108 ± 0.0120,0.1465 ± 0.0140
