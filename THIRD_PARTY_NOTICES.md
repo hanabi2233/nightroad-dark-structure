@@ -1,6 +1,6 @@
 # Third-party notices
 
-This repository does not assign a blanket licence to all its contents. Third-party components retain the licences and notices described below. No separate reuse licence is currently specified for the authors' original contributions and controlled model weights. For reuse permission, contact [Lanxiang Wei](mailto:20251513219@sspu.edu.cn).
+This repository does not assign a blanket licence to all its contents. Third-party components retain the licences and notices described below. No separate reuse licence is currently specified for the authors' original contributions and controlled model weights.
 
 ## Retinexformer
 

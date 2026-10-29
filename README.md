@@ -4,15 +4,7 @@ Companion code and recorded results for **Dark-structure supervision and local-l
 
 **Public manuscript-companion repository.** Release v0.1.0 was prepared on 25 October 2026; the repository and its release assets became publicly accessible on 29 October 2026. Repository: [https://github.com/hanabi2233/nightroad-dark-structure](https://github.com/hanabi2233/nightroad-dark-structure). Model assets: [release v0.1.0](https://github.com/hanabi2233/nightroad-dark-structure/releases/tag/v0.1.0). No repository invitation is required to access these materials.
 
-**Authors:** Jie Xu, Lanxiang Wei, Zhifeng Wang.
-
-**Affiliation:** School of Intelligent Manufacturing and Control Engineering, Shanghai Polytechnic University, Shanghai, China.
-
-**Corresponding author:** Lanxiang Wei, [20251513219@sspu.edu.cn](mailto:20251513219@sspu.edu.cn).
-
-**Manuscript status:** Submitted to *Signal, Image and Video Processing* on 28 October 2026; not yet accepted or published.
-
-The v0.1.0 tag and downloadable archives retain the original 25 October snapshot. This README and the linked release notes provide the updated access and author information; see [provenance](docs/PROVENANCE.md).
+The v0.1.0 tag and downloadable archives retain the original 25 October snapshot. This README and the linked release notes provide the updated access information; see [provenance](docs/PROVENANCE.md).
 
 The method retains the Retinexformer inference architecture and changes the training objectives and their gradient organization. The complete method coordinates RGB reconstruction (R), input-guided dark-structure supervision (S), and local-luminance supervision (M). The release covers seven reported conditions at three seeds, including the two component deletions.
 
@@ -64,4 +56,4 @@ Seeds: `20261004`, `20261005`, `20261006`. All original controlled checkpoints a
 
 ## Rights and citation
 
-See [third-party notices](THIRD_PARTY_NOTICES.md) and [data availability](docs/DATA_AVAILABILITY.md). Third-party components retain their existing licences. No separate reuse licence is currently specified for the authors' original contributions and controlled model weights. For reuse permission, contact [Lanxiang Wei](mailto:20251513219@sspu.edu.cn). The manuscript title and author order are listed above; a publication citation and DOI are not yet available.
+See [third-party notices](THIRD_PARTY_NOTICES.md) and [data availability](docs/DATA_AVAILABILITY.md). Third-party components retain their existing licences. No separate reuse licence is currently specified for the authors' original contributions and controlled model weights. The manuscript title is listed above; a publication citation and DOI are not yet available.
