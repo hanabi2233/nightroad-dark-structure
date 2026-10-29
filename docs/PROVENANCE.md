@@ -1,5 +1,13 @@
 # Source and packaging provenance
 
+## Public-access documentation update, 29 October 2026
+
+The repository and v0.1.0 release assets became publicly accessible on 29 October 2026. The current README records the confirmed authors and the manuscript's submission to *Signal, Image and Video Processing* on 28 October 2026. This update changes access, author and licensing-status documentation and the corresponding root checksum entries only; it does not assign a new reuse licence.
+
+The v0.1.0 tag and downloadable archives retain their original bytes. The `metadata/` folder, including its original README, is also unchanged. References to pending access or author decisions inside those historical snapshots describe the 25 October preparation state; current access and author information is in the [repository README](../README.md) and [data availability](DATA_AVAILABILITY.md). Scientific source files, configurations, recorded results, source identities and model assets are unchanged.
+
+## Original release preparation, 25 October 2026
+
 The source manuscript package is `SIVP_DECLARATION_EDIT_20261025`. No manuscript, original training file, dataset, checkpoint, canonical project state or original result was edited to make this release.
 
 `SOURCE_MANIFEST.csv` maps copied files to their project-relative source names, sizes and SHA-256 values. All 22 source identities listed in the manuscript's `metadata/TRAINING_SOURCES.csv` were matched before copying. Additional imports required by those files, including `img_util.py`, are recorded separately in the same source manifest.

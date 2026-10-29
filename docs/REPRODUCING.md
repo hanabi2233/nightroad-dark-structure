@@ -4,7 +4,7 @@ These are reader-facing commands for a future reproduction. None of the dataset 
 
 ## 1. Verify and obtain assets
 
-Run `python -B tools/verify_release.py` from the repository root. Authorized repository users can obtain the authors' model archive from [release v0.1.0](https://github.com/hanabi2233/nightroad-dark-structure/releases/tag/v0.1.0). The repository is currently private. Extract it to, for example, `/work/model-assets/`, leaving `checkpoints/`, `initialization/` and `MODEL_ASSETS_MANIFEST.csv` together. Run:
+Run `python -B tools/verify_release.py` from the repository root. The authors' model archive is publicly available from [release v0.1.0](https://github.com/hanabi2233/nightroad-dark-structure/releases/tag/v0.1.0), with no repository invitation required. Extract it to, for example, `/work/model-assets/`, leaving `checkpoints/`, `initialization/` and `MODEL_ASSETS_MANIFEST.csv` together. Run:
 
 ```bash
 python -B tools/verify_release.py --release-assets /work/model-assets
